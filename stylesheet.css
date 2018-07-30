@@ -1,0 +1,11 @@
+body,th,td,p,ol,ul { 
+	font-family: "Trebuchet MS", Palatino, "New Century Schoolbook", serif;
+}
+
+h1,h2,h3,h4,h5,h6,.breadcrumb, .announcement, a.announcement {
+	font-family: arial, sans-serif;
+}
+
+.breadcrumb {
+	font-size: small;
+}

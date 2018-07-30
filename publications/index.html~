@@ -1,0 +1,831 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/REC-html401/loose.dtd">
+<html>
+<head>
+  <title>Diego Moll&aacute; Aliod: Publications and presentations</title>
+  <base  href="http://www.ics.mq.edu.au/~diego/publications/papers.html">
+  <meta http-equiv="Content-Type" content="text/html">
+
+<?php include("../header.html"); ?>
+
+
+				<div id="breadcrumb">
+
+                <!--UPDATE BREADCRUMB-->
+					<strong>You are here:</strong>
+					<ul>
+<li><a href="http://www.clt.mq.edu.au">Centre for Language Technology</a>&nbsp;&raquo;</li>
+<li><a href="http://web.science.mq.edu.au/~diego">Diego Moll&aacute; Aliod</a>&nbsp;&raquo;</li>
+<li><a href="http://web.science.mq.edu.au/~diego/publications/index.html">Publications</a>&nbsp;&raquo;</li>
+					</ul>
+
+				</div><!--/breadcrumb-->
+                <!--BEGIN CONTENT AREA, COLUMN 2-->
+				<div id="column-2">
+
+
+
+<p>(see the <a href="#encoding">note on encoding</a>)</p>
+
+[Presentations | <a href="#nlp">NLP</a> | <a href="#social">Social
+  Media</a> | <a href="#ebm">Evidence
+  Based Medicine</a> | <a href="#qa">Question Answering</a> |
+<a href="#flf">Flat Logical Forms</a>
+| <a href="#teaching">Teaching</a> | <a href="#web">Web</a> | <a href="#aspect">Tense/Aspect</a>]
+
+<h1><a name="presentations"></a>Presentations</h1>
+
+<ul>
+  <li><a href="http://www.slideshare.net/dmollaaliod/artificial-intelligence-for-teachers-years-710"><img
+height="20" width="20"
+													src="../images/slideshare.jpeg"></a> <strong>Artificial
+      Intelligence for Teachers Years 7-10</strong>, part of a
+    Macquarie University Workshop for Australian teachers, Macquarie University, Sydney, September 2016.
+    </li>
+  <li><a href="http://www.slideshare.net/dmollaaliod/macquarie-university-workshop-on-text-mining-and-health"><img
+height="20" width="20" src="../images/slideshare.jpeg"></a> <strong>Macquarie University Workshop on Text Mining and Health</strong>, opening presentation at
+  the <a href="http://comp.mq.edu.au/research/collaboration-workshops/2014-mq-clinical-nlp/">Macquarie University Workshop on Text Mining and Health</a>, Macquarie University, Sydney, September 2014.</li>
+<li><a href="../medicalnlp/slides/PatnaWorkshop2012.pdf"><img
+height="20" width="20" src="../images/pdf.gif"></a> <strong>Text Summarisation for Evidence Based Medicine</strong>, presentation at
+  the <a href="http://www.iitp.ac.in/OptHLT/oneday/">Indo-Australia Workshop on Optimization Techniques for Human
+  Language Technology</a>, India Institute of Technology Patna, December
+  16 2012.</li>
+<li><a href="../medicalnlp/slides/HAIL201203.pdf"><img
+height="20" width="20" src="../images/pdf.gif"></a> <strong>Automated Summarisation for Evidence Based Medicine</strong>, <a href="http://research.ict.csiro.au/hail/Abstracts/2012/diego_aliod">HAIL seminar</a>
+  22 March 2012.</li>
+</li>
+ <li>Course on <strong>Information Extraction and Question Answering</strong> at <a href="http://www.alta.asn.au/events/altss2003/">ALTSS
+	2003</a>, Melbourne, December 2003</li> [<a href="ALTSS03L1.pdf"><img
+height="20" width="20" src="../images/pdf.gif"></a> Lecture 1] [<a href="ALTSS03L2.pdf"><img
+height="20" width="20" src="../images/pdf.gif"></a> Lecture
+    2] [<a href="ALTSS03L3.pdf"><img
+height="20" width="20" src="../images/pdf.gif"></a> Lecture 3]
+</ul>
+
+<h1>Research Papers</h1>
+
+[<a href="#presentations">Presentations</a> | NLP
+  | <a href="#social">Social Media</a> | <a href="#ebm">Evidence
+  Based Medicine</a> | <a href="#qa">Question Answering</a> |
+<a href="#flf">Flat Logical Forms</a>
+| <a href="#teaching">Teaching</a> | <a href="#web">Web</a> | <a href="#aspect">Tense/Aspect</a>]
+
+<h2><a name="nlp"></a>Misc NLP</h2>
+<ol>
+<li><a href="https://trec.nist.gov/pubs/trec26/papers/CSIRO-PM.pdf"><img src="../images/pdf.gif"
+width="20" height="20"></a> V. Nguyen, S. Karimi, S. Falamaki, D. Moll&aacute;, C. Paris, S. Wan. <strong>CSIRO at 2017 TREC Precision Medicine Track</strong>. <em>The Twenty-Sixth Text REtrieval Conference</em>.</li>
+<li>H. Hajiabadi, D. Moll&aacute;, R. Monsefi. <strong>On Extending Neural Networks with Loss Ensembles for Text Classification (2017)</strong>. <em>Proc. ALTA 2017</em>. [<a href="https://arxiv.org/abs/1711.05170">arxiv</a>].
+</li>
+<li>D. Moll&aacute;, S. Cassidy. <strong>Overview of the 2017 ALTA Shared Task: Correcting OCR Errors (2017)</strong>. <em>Proc. ALTA 2017</em>.
+</li>
+<li><a href="http://aclweb.org/anthology/U/U16/U16-1020.pdf"><img src="../images/pdf.gif"
+width="20" height="20"></a>
+A. Chisholm, B. Hachey, D. Moll&aacute;.
+<strong>Overview of the 2016 ALTA Shared Task: Cross-KB Coreference (2016)</strong>. <em>Proceedings of the Australasian
+  Language Technology Association Workshop 2016</em>, pp161-164</li>
+
+<li><a href="https://aclweb.org/anthology/U/U15/U15-1017.pdf"><img src="../images/pdf.gif"
+width="20" height="20"></a>
+L. Sitbon, D. Moll&aacute; H. Wang.
+<strong>Overview of the 2015 ALTA Shared Task: Identifying French Cognates in
+English Text (2015)</strong>. <em>Proceedings of the Australasian
+  Language Technology Association Workshop 2015</em>, pp134-137</li>
+
+<li><a href="http://www.aclweb.org/anthology/U/U14/U14-1022.pdf"><img src="../images/pdf.gif"
+width="20" height="20"></a> D. Moll&aacute; and S. Karimi. <strong>Overview of the 2014 ALTA Shared Task: Identifying Expressions of Locations in Tweets (2014)</strong>. <em>Proceedings of the
+Australasian Language Technology Association Workshop 2014
+(<a href="http://www.alta.asn.au/events/alta2014/">ALTA 2014</a>)</em>,
+pp132-136, Brisbane,
+Australia. DOI 10.13140/2.1.2890.4004
+  [<a href="http://www.slideshare.net/dmollaaliod/alta2014-slides">slideshare</a>]  [<a href="https://www.researchgate.net/publication/268960749_Overview_of_the_2014_ALTA_Shared_Task_Identifying_Expressions_of_Locations_in_Tweets">researchgate</a>]</li>
+
+<li><a href="tac2014.pdf"><img src="../images/pdf.gif"
+width="20" height="20"></a> K. Jaidka, M.K. Chandrasekaran, R. Jha, C. Jones, M-Y. Kan, D. Moll&aacute;, D.R. Radev, F. Ronzano, H. Saggion. <strong>The Computational Linguistics Summarization Pilot Task (2014)</strong>. Proceedings of the 2014 Text Analysis Conference (TAC 2014). [<a href="https://www.researchgate.net/publication/297686683_The_Computational_Linguistics_Summarization_Pilot_Task">researchgate</a>]</li>
+
+<li><a href="http://aclweb.org/anthology/U/U13/U13-1019.pdf"><img src="../images/pdf.gif"
+width="20" height="20"></a> D. Moll&aacute;. <strong>Overview of the
+2013 ALTA Shared Task (2013)</strong>. <em>Proceedings of the
+Australasian Language Technology Association Workshop 2013
+(<a href="http://www.alta.asn.au/events/alta2013/">ALTA 2013</a>)</em>,
+pp132-136, Brisbane,
+Australia. [<a href="http://www.slideshare.net/dmollaaliod/overview-of-the">slideshare</a>]</li>
+</ol>
+
+[<a href="#presentations">Presentations</a> | <a href="#nlp">NLP</a> |
+  Social Media | Evidence
+  Based Medicine | <a href="#qa">Question Answering</a> |
+<a href="#flf">Flat Logical Forms</a>
+| <a href="#teaching">Teaching</a> | <a href="#web">Web</a> | <a href="#aspect">Tense/Aspect</a>]
+
+<h2><a name="social"></a>Social Media</h2>
+
+<ol>
+<li><a href="PACLING2015.pdf"><img src="../images/pdf.gif"
+width="20" height="20"></a> R. Nugroho, D. Moll&aacute;,
+  Y. Zhong, C. Paris, S. Nepal.
+<strong>Incorporating Tweet Relationships into Topic Derivation
+  (2015)</strong>. <em>Proceedings 2015 Pacific Association for
+  Computational Linguistics (<a href="http://pacling.stei.itb.ac.id/">PACLING 2015</a>)</em>,
+pp94-100, Bali,
+Indonesia. DOI 10.13140/RG.2.1.2193.8086
+[<a href="https://www.researchgate.net/publication/277173765_Incorporating_Tweet_Relationships_into_Topic_Derivation">researchgate</a>]
+</li>
+</ol>
+
+[<a href="#presentations">Presentations</a> | <a href="#nlp">NLP</a> |
+  <a href="#social">Social Media</a> | Evidence
+  Based Medicine | <a href="#qa">Question Answering</a> |
+<a href="#flf">Flat Logical Forms</a>
+| <a href="#teaching">Teaching</a> | <a href="#web">Web</a> | <a href="#aspect">Tense/Aspect</a>]
+
+<h2><a name="ebm"></a>Natural Language Processing for Evidence Based Medicine</h2>
+
+<ol>
+<li>D. Moll&aacute;. <strong>Towards the Use of Deep Reinforcement Learning with Global Policy For Query-based Extractive Summarisation (2017)</strong>. <em>Proc. ALTA 2017</em>. [<a href="https://arxiv.org/abs/1711.03859">arxiv</a>] [<a href="https://github.com/dmollaaliod/alta2017-rl">code</a>].
+</li>
+  <li><a href="https://aclweb.org/anthology/W/W17/W17-2308.pdf"><img src="../images/pdf.gif"
+						      width="20" height="20"></a> D. Moll&aacute;. <strong>Macquarie University at BioASQ 5b -- Query-based Summarisation Techniques for Selecting the Ideal Answers (2017)</strong>. <em>Proc. BioNLP 2017</em>. [<a href="https://arxiv.org/abs/1706.02095">arxiv</a>] [<a href="https://hub.docker.com/r/dmollaaliod/bioasq5b/">docker image</a>]
+  </li>
+  <li><a href="https://arxiv.org/pdf/1706.08162"><img src="../images/pdf.gif"
+						      width="20" height="20"></a> A. Sarker, D. Moll&aacute;, C. Paris <strong>Automated Text Summarisation and Evidence-Based Medicine: A Survey of Two Domains (2017)</strong>.  <a href="https://arxiv.org/abs/1706.08162">arXiv:1706.08162</a>, 35 pages.
+  </li>
+  <li><a href="https://aclweb.org/anthology/W/W16/W16-4205.pdf"><img src="../images/pdf.gif"
+width="20" height="20"></a> P. Sahoo, A. Ekbal, S. Saha, D. Moll&aacute;,
+  K. Nandan. <strong>Semi-supervised Clustering of Medical
+  Text (2016)</strong>. Proceedings of the COLING 2016 Workshop on
+  Clinical Natural Language Processing
+  (<a href="https://text-machine-lab.github.io/ClinicalNLP2016/">ClinicalNLP</a>). Best
+  paper award in "long paper" category.
+  </li>
+<li><a href="http://link.springer.com/article/10.1007/s10579-015-9327-2"><img src="../images/pdf.gif"
+width="20" height="20"></a> D. Moll&aacute;, M.E. Santiago-Mart&iacute;nez A. Sarker,
+  C. Paris. <strong>A Corpus for Research in Text Processing for
+  Evidence Based Medicine (2016)</strong>. <em>Language Resources
+  and Evaluation,</em> 50(4):705-727. <a href="http://link.springer.com/article/10.1007/s10579-015-9327-2">DOI 10.1007/s10579-015-9327-2</a></li>
+
+<li><a href="http://dx.doi.org/10.1016/j.jbi.2015.11.010"><img src="../images/pdf.gif"
+width="20" height="20"></a> A. Sarker, D. Moll&aacute;, C. Paris. <strong>Query-Oriented
+    Evidence Extraction to Support
+    Evidence-based Medicine Practice (2016)</strong>. <em>Journal of
+    Biomedical Informatics,</em> 59:169-184. <a href="http://dx.doi.org/10.1016/j.jbi.2015.11.010">DOI 10.1016/j.jbi.2015.11.010</a></li>
+
+<li><a href="https://aclweb.org/anthology/U/U15/U15-1001.pdf"><img src="../images/pdf.gif"
+width="20" height="20"></a>
+M. Yousefi Azar, K. Sirts, L. Hamey, D. Moll&aacute;.
+<strong>Query-Based Single Document Summarization Using an Ensemble Noisy
+Auto-Encoder (2015)</strong>. <em>Proceedings of the Australasian
+  Language Technology Association Workshop 2015</em>, pp2-10</li>
+
+<li><a href="https://aclweb.org/anthology/U/U15/U15-1006.pdf"><img src="../images/pdf.gif"
+width="20" height="20"></a>
+H. Hassanzadeh, D. Moll&aacute;, T. Groza, A. Nguyen, J. Hunter. 
+<strong>Similarity Metrics for Clustering PubMed Abstracts for Evidence Based
+Medicine (2015)</strong>. <em>Proceedings of the Australasian Language
+  Technology Association Workshop 2015</em>, pp48-56</li>
+
+<li><a href="http://dx.doi.org/10.1016/j.artmed.2015.04.001"><img src="../images/pdf.gif"
+width="20" height="20"></a> A. Sarker, D. Moll&aacute;, C. Paris. <strong>Automatic Evidence
+    Quality Prediction to Support Evidence-based Decision Making
+    (2015)</strong>. <em>Artificial Intelligence in Medicine</em>,
+  64(2)89-103. <a href="http://www.ncbi.nlm.nih.gov/pubmed/25983133">PubMed
+    ID 25983133</a>. <a href="http://dx.doi.org/10.1016/j.artmed.2015.04.001">DOI 10.1016/j.artmed.2015.04.001</a></li>
+
+<li><a href="http://aclweb.org/anthology/U/U14/U14-1010.pdf"><img src="../images/pdf.gif"
+width="20" height="20"></a> D. Moll&aacute;, C. Jones,
+  A. Sarker.
+<strong>Impact of Citing Papers for Summarisation of Clinical Documents (2014)</strong>. <em>Proceedings of the Australasian
+Language Technology Association Workshop 2014
+(<a href="http://www.alta.asn.au/events/alta2014/">ALTA 2014</a>)</em>,
+pp53-61, Brisbane,
+Australia. DOI 10.13140/2.1.2366.1126
+[<a href="http://www.slideshare.net/dmollaaliod/alta2014-slides-42202879">slideshare</a>]
+[<a href="http://www.researchgate.net/publication/268957603_Impact_of_Citing_Papers_for_Summarisation_of_Clinical_Documents">researchgate</a>]
+</li>
+
+<li><a href="http://143.167.100.11/GEAR-workshop/gear2014-Moll%C3%A1.pdf"><img src="../images/pdf.gif" width="20" height="20"></a> D. Moll&aacute;, I. Amini, D. Martinez. <strong>Document Distance for the Automated Expansion of Relevance Judgements for Information Retrieval Evaluation (2014)</strong> <em>Proceedings ACM SIGIR Workshop on Gathering Efficient Assessments of Relevance (<a href="https://sites.google.com/site/sigirgear/">GEAR</a>)</em>, Gold Coast, Australia. [<a href="http://www.slideshare.net/dmollaaliod/gear2014">slideshare</a>] [<a href="https://www.researchgate.net/publication/263967018_Document_Distance_for_the_Automated_Expansion_of_Relevance_Judgements_for_Information_Retrieval_Evaluation">researchgate</a>]</li>
+
+<li><a href="adcs2013.pdf"><img src="../images/pdf.gif" width="20"
+height="20"></a> D. Moll&aacute;, D. Martinez, and
+I. Amini. <strong>Towards Information Retrieval Evaluation with
+Reduced and Only Positive Judgements (2013)</strong>. <em>Proceedings
+of the 18th Australasian Document Computing Symposium
+(<a href="http://www.adcs2013.qut.edu.au/">ADCS 2013</a>)</em>,
+Brisbane, Australia. [<a href="adcs2013poster.pdf">poster</a>]</li>
+
+<li><a href="http://aclweb.org/anthology/U/U13/U13-1008.pdf"><img src="../images/pdf.gif"
+width="20" height="20"></a> A. Ekbal, S. Saha, D. Moll&aacute;, and K. Ravikumar.
+<strong>Multi-Objective Optimization for Clustering of Medical
+Publications (2013)</strong>. <em>Proceedings of the Australasian
+Language Technology Association Workshop 2013
+(<a href="http://www.alta.asn.au/events/alta2013/">ALTA 2013</a>)</em>,
+pp53-61, Brisbane,
+Australia. [<a href="http://www.slideshare.net/dmollaaliod/slides-29018348">slideshare</a>]
+</li>
+
+<li><a href="ijcnlp2013.pdf"><img src="../images/pdf.gif" width="20"
+height="20"></a> A. Sarker, D. Moll&aacute;,
+C. Paris. <strong>Automatic Prediction of Evidence-based
+Recommendations via Sentence-level Polarity Classification
+(2013)</strong>. <em>Proceedings 6th International Joint Conference on
+Natural Language Processing
+(<a href="http://ijcnlp2013.org/">IJCNLP2013</a>)</em>, pp712-718,
+Nagoya,
+Japan. [<a href="http://www.slideshare.net/dmollaaliod/ijcnlp2013-slides">slideshare</a>]
+</li>
+<li><a href="http://link.springer.com/chapter/10.1007/978-3-642-38326-7_41"><img src="../images/pdf.gif"
+width="20" height="20"></a> A. Sarker,
+D. Moll&aacute;, C. Paris. <strong> An Approach for Query-Focused Text Summarisation for Evidence Based Medicine (2013)</strong>. <em>Proceedings
+of the 14th Conference on Artificial Intelligence in Medicine
+(<a href="http://www.aimedicine.info/aime13/">AIME 2013</a>)</em>,
+  Murcia, Spain.
+Lecture Notes in Computer Science, Vol. 7885, pp 295-304.
+[<a href="aime2013.pdf">manuscript</a>]
+</li>
+
+<li><a href="http://link.springer.com/chapter/10.1007/978-3-642-38326-7_42"><img src="../images/pdf.gif"
+width="20" height="20"></a> S.F. Shash,
+D. Moll&aacute;. <strong>Clustering of Medical Publications for
+Evidence Based Medicine Summarisation (2013)</strong>. <em>Proceedings
+of the 14th Conference on Artificial Intelligence in Medicine
+(<a href="http://www.aimedicine.info/aime13/">AIME 2013</a>),</em>
+  Murcia, Spain.
+Lecture Notes in Computer Science, Vol. 7885, pp 305-309.
+[<a href="aime2013b.pdf">manuscript</a>]
+[<a href="aime2013bposter.pdf">poster</a>]
+</li>
+
+<li><a
+href="http://nicta.com.au/__data/assets/pdf_file/0010/37648/louhi2013_submission_1.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> A. Sarker, D. Moll&aacute; and C. Paris. <strong>An Approach for Automatic Multi-label Classification of
+    Medical Sentences (2013).</strong> <em>Proceedings of the
+    Fourth International Workshop on Health Document Text Mining and
+    Information Analysis
+    (<a href="http://www.nicta.com.au/business/health/events/louhi2013">LOUHI
+      2013</a>)</em>, Sydney, Australia.</li>
+
+<li><a
+href="http://www.alta.asn.au/events/alta2012/proceedings/pdf/U12-1020.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> D. Moll&aacute;. <strong>Experiments with Clustering-based
+Features for Sentence Classification in Medical Publications:
+Macquarie Test's participation in the ALTA 2012 shared task (2012).
+</strong>. <em>Proceedings of the 2012 Australasian Language
+    Technology Workshop
+    (<a href="http://alta.asn.au/events/alta2012/">ALTA
+    2012</a>)</em>, Dunedin, New Zealand.
+</li>
+<li><a
+href="http://www.alta.asn.au/events/alta2012/proceedings/pdf/U12-1017.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> I. Amini, D. Martinez and D. Moll&aacute;. <strong>Overview of the
+    ALTA 2012 Shared Task (2012)</strong>. <em>Proceedings of the 2012
+    Australasian Language Technology Workshop
+    (<a href="http://alta.asn.au/events/alta2012/">ALTA
+    2012</a>)</em>, Dunedin, New Zealand.
+</li>
+<li><a
+href="http://www.alta.asn.au/events/alta2012/proceedings/pdf/U12-1011.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> A. Sarker, D. Moll&aacute; and C. Paris. <strong>Towards Two-step Multi-document Summarisation for Evidence Based
+Medicine: A Quantitative Analysis (2012)</strong>. <em>Proceedings of
+  the 2012 Australasian Language Technology Workshop (<a href="http://alta.asn.au/events/alta2012/">ALTA 2012</a>)</em>,
+Dunedin, New Zealand.</li>
+<li><a
+href="qa4mre12.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> D. Martinez, A. MacKinlay, D. Moll&aacute;, L. Cavedon and
+  K. Verspoor. <strong>Simple similarity-based question answering
+  strategies for biomedical text (2012).</strong> <em>QA4MRE Workshop
+  at Conference and Labs of the Evaluation Forum, CLEF
+  2012</em>. September 17-20, 2012.</li>
+<li><a
+href="AMJ2012EBM.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> D. Moll&aacute;
+  and M.E. Santiago-Mart&iacute;nez.  <strong>Creation of a Corpus for
+    Evidence Based Medicine Summarisation
+ (2012)</strong>. <em><a href="http://amj.net.au">Australasian Medical
+ Journal</a></em>, 5(9).</li>
+<li><a
+href="AMJ2012Sum.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> A. Sarker,
+ D. Moll&aacute; and C. Paris.  <strong>Extractive Summarisation of
+ Medical Documents using Domain Knowledge and Corpus Statistics
+ (2012)</strong>. <em><a href="http://amj.net.au">Australasian Medical
+ Journal</a></em>, 5(9).</li>
+<li><a
+href="CBMS2012.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> A. Sarker,
+ D. Moll&aacute; and C. Paris.  <strong>Extractive Evidence Based
+    Medicine Summarisation Based on Sentence-Specific Statistics
+ (2012)</strong>. <em>Proceedings of the 25th IEEE International
+    Symposium on Computer-based Medical Systems (<a href="http://www.cbms2012.org/">CBMS2012</a>)</em>,
+  Rome, Italy. [<a href="../medicalnlp/slides/CBMS2012.pdf">slides</a>]
+</li>
+<li><a
+href="hikm12.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> P. Davis-Desmond
+  and D. Moll&aacute;.  <strong>Detection of Evidence in Clinical
+    Research Papers (2012)</strong>. <em>Proceedings of the  ACSW 2012 Australasian Workshop on Health Informatics and Knowledge Management
+  (<a href="http://publichealth.curtin.edu.au/HIKM/">HIKM 2012</a>)</em>,
+  Melbourne, Australia. [<a href="../medicalnlp/slides/HIKM2012.pdf">slides</a>]
+</li>
+
+<li><a
+href="http://alta.asn.au/events/alta2011/proceedings/pdf/U11-1003.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> D. Moll&aacute; and A. Sarker.  <strong>Automatic Grading of
+  Evidence: The 2011 ALTA Shared Task (2011)</strong>. <em>Proceedings of
+  the 2011 Australasian Language Technology Workshop
+  (<a href="http://alta.asn.au/events/alta2011/">ALTA 2011</a>)</em>,
+  Canberra, Australia.
+</li>
+
+<li><a
+href="http://alta.asn.au/events/alta2011/proceedings/pdf/U11-1014.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> A. Sarker, D. Moll&aacute; and C&eacute;cile Paris.  <strong>Outcome Polarity Identification of Medical Papers (2011)</strong>. <em>Proceedings of
+  the 2011 Australasian Language Technology Workshop
+  (<a href="http://alta.asn.au/events/alta2011/">ALTA 2011</a>)</em>,
+  Canberra, Australia.
+</li>
+
+<li><a
+href="http://alta.asn.au/events/alta2011/proceedings/pdf/U11-1012.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> D. Moll&aacute; and Mar&iacute;a Elena
+  Santiago-Mart&iacute;nez. <strong>Development of a Corpus for
+  Evidence Medicine Summarisation  (2011)</strong>. <em>Proceedings of
+  the 2011 Australasian Language Technology Workshop
+  (<a href="http://alta.asn.au/events/alta2011/">ALTA 2011</a>)</em>,
+  Canberra, Australia. [<a href="http://www.slideshare.net/dmollaaliod/alta2011">slideshare</a>]
+</li>
+
+<li><a
+href="Louhi2011.pdf"><img
+src="../images/pdf.gif" width="20" height="20"> </a>A. Sarker, D. Moll&aacute; and C&eacute;cile
+  Paris. <strong>Towards Automatic Grading of Evidence
+  (2011)</strong>. <em>Proceedings of the Third International Workshop on
+Health Document Text Mining and Information Analysis (<a href="http://sites.google.com/site/louhi2011/">LOUHI 2011</a>)</em>,
+  pp51-58. Bled, Slovenia.
+</li>
+<li><a
+href="http://www.cs.rmit.edu.au/adcs2010/proceedings/pdf/paper%2016.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a>
+ A. Sarker and D. Moll&aacute;. <strong>A Rule-based Approach for
+    Automatic Identification of Publication Types of Medical Papers (2010)</strong>. 
+<em>Proceedings <a href="http://www.cs.rmit.edu.au/adcs2010/index.php">ADCS
+    2010</a></em>, 5 pages. Melbourne.</li>
+<li><a
+href="http://www.alta.asn.au/events/alta2010/proceedings/pdf/U10-1012.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a>
+  D. Moll&aacute;. <strong>A Corpus for Evidence Based Medicine Summarisation (2010)</strong>. 
+<em>Proceedings <a href="http://www.alta.asn.au/events/alta2010/">ALTA 2010</a></em>, pp.76-80. Melbourne.</li>
+<li><a
+href="hikm10.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> A. Tutos and D. Moll&aacute;. <strong>A Study on the Use of Search Engines for Question Answering in Biomedicine (2010)</strong>. 
+<em>Australasian Workshop On Health Informatics and Knowledge Management
+(<a href="http://aehrc.com/hikm2010/">HIKM</a>)</em>, 8 pages. Brisbane.</li>
+</ol>
+
+[<a href="#presentations">Presentations</a> | <a href="#nlp">NLP</a>
+  | <a href="#social">Social Media</a> | <a href="#ebm">Evidence
+  Based Medicine</a> | Question Answering |
+<a href="#flf">Flat Logical Forms</a>
+| <a href="#teaching">Teaching</a> | <a href="#web">Web</a> | <a href="#aspect">Tense/Aspect</a>]
+
+
+<h2><a name="qa"></a>Question Answering and Answer Extraction</h2>
+
+<ol>
+<li>
+  D. Moll&aacute; and J.L. Vicedo. <strong>Question Answering
+  (2010)</strong>. Chapter 20 of N. Indurkhya and F. J. Damerau (Eds). <em>Handbook of
+    Natural Language Processing, Second Edition</em>. CRC Press,
+  pp485-510.</li>
+
+<li><a
+href="HessFestschrift.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a>
+  D. Moll&aacute;. <strong>From Minimal Logical Forms for Answer
+    Extraction to Logical Graphs for Question Answering (2009)</strong>. 
+<em>Searching Answers: Festschrift in Honour of Michael Hess on the
+  Occasion of His 60th Birthday</em>, M&uuml;nster:MV-Wissenschaft,
+  pp101-108.</li>
+<li><a
+href="PizzatoIR4QA08.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> L.A. Pizzato and D. Moll&aacute;. <strong>Indexing on Semantic
+Roles for Question Answering (2008)</strong>. <em>Proceedings COLING
+workshop on Information Retrieval for Question Answering
+(<a href="http://nlp.shef.ac.uk/ir4qa/">IR4QA</a>)</em>, 8 pages. Manchester.</li>
+<li><a
+href="http://www.alta.asn.au/events/altw2007/cdrom/pdf/ALTA2007_10.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> D. Moll&aacute;, M. van Zaanen and S.
+Cassidy. <strong>Named Entity Recognition in Question Answering of
+Speech Data (2007)</strong>. <em>Proceedings <a
+href="http://www.alta.asn.au/events/altw2007/index.html">ALTA
+2007</a></em>, 57-65, Melbourne. [<a href="../answerfinder/alta2007-poster.pdf">poster</a>]</li>
+<li><a
+href="http://www.alta.asn.au/events/altw2007/cdrom/pdf/ALTA2007_14.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> L.A.
+Pizzato and D. Moll&aacute;. <strong>Question Prediction Language Model (2007)</strong>. <em>Proceedings <a
+href="http://www.alta.asn.au/events/altw2007/index.html">ALTA
+2007</a></em>, 92-99, Melbourne.</li>
+<li><a
+href="PACLING07.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> M. van Zaanen and D. Moll&aacute;. <strong>A Named Entity
+      Recogniser for Question Answering (2007)</strong>. <em>Proceedings
+      PACLING 2007</em>, 8 pages, Melbourne.</li>
+<li><a
+href="http://www.clef-campaign.org/2007/working_notes/vanzaanenCLEF2007.pdf" width="20" height="20"><img
+src="../images/pdf.gif" width="20" height="20"></a> M. van Zaanen and D. Moll&aacute;. <strong>AnswerFinder at QA @ CLEF 2007 (2007)</strong>. <em><a href="http://www.clef-campaign.org/2007/working_notes/CLEF2007WN-Contents.html">Working Notes for the CLEF 2007 Workshop</a></em>, 9 pages, Budapest.</li>
+<li><a
+href="http://www.clef-campaign.org/2007/working_notes/mollaCLEF2007.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> D. Moll&aacute;, S.
+Cassidy and M. van Zaanen. <strong>AnswerFinder at QAst 2007: Named Entity Recognition for QA on Speech Transcripts (2007)</strong>. <em><a href="http://www.clef-campaign.org/2007/working_notes/CLEF2007WN-Contents.html">Working Notes for the CLEF 2007 Workshop</a></em>, 9 pages, Budapest.</li>
+  <li><a
+href="../answerfinder/rdqa/index.html"><img
+src="../images/pdf.gif" width="20" height="20"></a> D. Moll&aacute; and J. L. Vicedo. <strong>Question Answering in Restricted Domains: An Overview (2007)</strong>. <em>Computational Linguistics</em>, 33(1):41-61.</li>
+<li><a
+href="http://trec.nist.gov/pubs/trec15/papers/macquarieu.qa.final.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> D. Moll&aacute;
+and M. van Zaanen. <strong>AnswerFinder at TREC 2006
+(2007)</strong>. <em>The Fifteenth Text REtrieval Conference (TREC
+2006)</em>, 8 pages.</li>
+<li><a
+href="http://www.alta.asn.au/events/altw2006/proceedings/mollaEtAlFinal.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> D. Moll&aacute;, M. van Zaanen, and D. Smith. <strong>Named Entity Recognition for Question Answering (2006)</strong>. <em>Proceedings <a href="http://www.alta.asn.au/events/altw2006/index.html">ALTW 2006</a></em>, Sydney.</li>
+<li><a
+href="http://www.alta.asn.au/events/altw2006/proceedings/PizzatoALTW2006.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> L.A. Pizzato, D. Moll&aacute;, and C. Paris. <strong>Pseudo Relevance Feedback Using Named Entities for Question Answering (2006)</strong>. <em>Proceedings <a href="http://www.alta.asn.au/events/altw2006/index.html">ALTW 2006</a></em>, 8 pages, Sydney. DOI 10.13140/2.1.2044.4166.</li>
+<li><a
+href="http://www.springerlink.com/content/wl4071pj235h7w02/"><img
+src="../images/pdf.gif" width="20" height="20"></a> E. Akhmatova and
+  D. Moll&aacute;. <strong>Recognizing Textual Entailment via Atomic
+    Propositions (2006)</strong>. In
+  J. Qui&ntilde;onero-Candela, I. Gagan, B. Magnini,
+  F. d'Alch&eacute;-Buc (eds.). <em>Machine Learning Challenges. Evaluating
+  Predictive Uncertainty, Visual Object Classification, and
+  Recognising Textual Entailment.</em>, LNCS 3944/2006, Springer, pp385-403. [<a href="LNCSAkhmatovaMolla.pdf">local copy</a>]</li>
+<li><a
+href="DUC2006.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> D. Moll&aacute; and S. Wan. <strong>Macquarie University at DUC 2006: Question Answering for Summarisation (2006) </strong>. <em>Proceedings DUC 2006</em>, 62-69. </li>
+<li><a
+href="NAACL06Graphs.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> D. Moll&aacute;. <strong>Learning of Graph-based Question Answering Rules (2006)</strong>. <em>Proceedings HLT/NAACL 2006 Workshop on Graph Algorithms for Natural Language Processing</em>, 37-44. </li>
+<li><a
+href="http://trec.nist.gov/pubs.html"><img
+src="../images/pdf.gif" width="20" height="20"></a> D. Moll&aacute;
+and M. van Zaanen. <strong>AnswerFinder at TREC 2005
+(2006)</strong>. <em>The Fourteenth Text REtrieval Conference (TREC
+2005)</em>, 9 pages.</li>
+
+
+<li><a
+href="PizzatoALTW2005.pdf"><img src="../images/pdf.gif" width="20"
+height="20"></a> L.A. Pizzato and D. Moll&aacute;. <strong>Extracting Exact Answers using a Meta Question Answering System (2005) </strong>. <em>Proc. <a
+href="http://www.alta.asn.au/events/altw2005/">ALTW05</a>, pp. 105-111, Sydney, December 2005</em> [<a href="PizzatoALTW2005Poster.pdf">poster</a>].</li>
+<li><a
+href="altw05.pdf"><img
+height="20" width="20" src="../images/pdf.gif"></a> D. Moll&aacute;
+and M. van Zaanen. <strong>Learning of Graph Rules for Question
+	  Answering (2005)</strong>. <em>Proc. <a
+href="http://www.alta.asn.au/events/altw2005/">ALTW05</a>, 9 pages, Sydney,
+December 2005</em>.</li>
+
+<li><a href="spire05.pdf"><img src="../images/pdf.gif" width="20"
+height="20"></a> M. van Zaanen, L.A. Pizzato and
+D. Moll&aacute;. <strong>Classifying Sentences Using Induced Structure
+(2005) </strong>. <em>Proc. Twelfth Edition of the Symposium on String
+Processing and Information Retrieval (<a
+href="http://www.la-web.org/spire2005/">SPIRE2005</a>)</em>,
+pp. 139-150, Buenos Aires, November 2005.</li>
+
+<li><a href="ijcai05.pdf"><img src="../images/pdf.gif" width="20"
+height="20"></a> M. van Zaanen, L.A. Pizzato and
+D. Moll&aacute;. <strong>Question Classification by Structure
+Induction (2005) </strong>. In 
+
+
+ Leslie Pack Kaelbling (ed.), <em>Proc. Nineteenth International Joint
+Conference on Artificial Intelligence (<a
+href="http://www.ijcai05.org/">IJCAI05</a>)</em>, poster presentation,
+Edinburgh, July 2005. ISBN 0-938075-93-4.</li>
+
+<li><a
+href="http://trec.nist.gov/pubs/trec13/papers/macquarieu.qa.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> D. Moll&aacute;
+and M. Gardiner. <strong>AnswerFinder at TREC 2004
+(2005)</strong>. <em>The Thirteenth Text REtrieval Conference (TREC
+2004)</em>, 8 pages.</li>
+
+<li><a
+href="http://www.alta.asn.au/events/altw2004/publication/04-05.pdf"><img
+height="20" width="20" src="../images/pdf.gif"></a> D. Moll&aacute;
+and M. Gardiner. <strong>AnswerFinder - Question Answering by
+Combining Lexical, Syntactic and Semantic Information
+(2004)</strong>. <em>Proc. <a
+href="http://www.alta.asn.au/events/altw2004/">ALTW04</a>, 9-16,
+Sydney, December 2004</em>.</li>
+
+<li><a href="NewDirections04.pdf"><img height="20" width="20"
+src="../images/pdf.gif"></a> F. Rinaldi, M. Hess, J. Dowdall, D. Moll&aacute;,
+R. Schwitter. <strong>Question Answering in Terminology-rich Technical
+Domains (2004)</strong>. In Mark Maybury (Ed.) <em>New
+Directions in Question Answering</em>. AAAI Press, 71-82.</li>
+
+<li><a href="sepln04.pdf"><img height="20" width="20"
+src="../images/pdf.gif"></a> D. Moll&aacute;. <strong>Hacia el Uso de
+la Informaci&oacute;n Sin&aacute;ctica y Sem&aacute;ntica en los Sistemas de B&uacute;squeda de
+Respuestas (2004)</strong>. <em>Procesamiento del Lenguaje
+Natural</em>, 33:17-24.</li>
+
+<li><a
+href="http://trec.nist.gov/pubs/trec12/papers/macquarieu.qa.pdf"><img
+height="20" width="20" src="../images/pdf.gif"></a> <a
+href="http://trec.nist.gov/pubs/trec12/papers/macquarieu.qa.ps"><img
+height="20" width="20" src="../images/ps.gif"></a>
+D. Moll&aacute;. <strong>AnswerFinder in TREC 2003
+(2004)</strong>. <em>The Twelth Text REtrieval Conference (TREC
+2003)</em>, 7 pages, <a
+href="http://trec.nist.gov/pubs.html">http://trec.nist.gov/pubs.html</a>.</li>
+
+<li><a
+href="http://www.alta.asn.au/events/altss_w2003_proc/altw/papers/molla-final.pdf"><img
+height="20" width="20" src="../images/pdf.gif"></a>
+D. Moll&aacute;. <strong>Towards Semantic-Based Overlap Measures for
+Question Answering (2003)</strong>. <em>Proc. ALTW03, 8 pages,
+Melbourne, December 2003</em>.</li>
+
+<li>F. Rinaldi, J. Dowdall, M. Hess, D. Moll&aacute;, R. Schwitter,
+and K. Kaljurand. <strong>Knowledge-Based Question Answering
+(2003)</strong>. <em>Proc. KES'2003 -- Seventh International
+Conference on Knowledge-Based Intelligent Information & Engineering
+Systems</em>, 3-5 September 2003, University of Oxford, United
+Kingdom. Lecture Notes in Computer Science, Vol. 2773, pp. 785-792, Springer
+	Verlag, Heidelberg, Germany.</li>
+
+<li><a href="ieee03.pdf"><img height="20" width="20"
+src="../images/pdf.gif"></a> D, Moll&aacute;, F. Rinaldi,
+R. Schwitter, J. Dowdall and M. Hess. <strong>ExtrAns: Extracting
+Answers from Technical Texts (2003)</strong>. <em>IEEE Intelligent
+Systems</em> 18(4):12-17.</li>
+
+<li><a href="ACL03.pdf"><img height="20" width="20"
+src="../images/pdf.gif"></a> F. Rinaldi, J. Dowdall, K. Kaljurand, M. Hess,
+D. Moll&aacute;. <strong>Exploiting Paraphrases in a Question
+Answering System (2003)</strong>. <em>Proc. Workshop
+in Paraphrasing at ACL2003</em>, pp. 25-32. July 11, Sapporo, Japan.</li>
+
+<li><a href="venice.pdf"><img height="20" width="20"
+src="../images/pdf.gif"></a> D. Moll&aacute;, R. Schwitter, F. Rinaldi,
+J. Dowdall, M. Hess. <strong>Anaphora Resolution in ExtrAns
+(2003)</strong>. <em>Proc. 2003 International Symposium on Reference
+Resolution and Its Applications to Question Answering and
+Summarization</em>, June 23-25, Venice, Italy.</li>
+
+<li><a href="molla_hutchinson_eacl.pdf"><img height="20" width="20"
+src="../images/pdf.gif"></a> D. Moll&aacute; and
+B. Hutchinson. <strong>Intrinsic versus Extrinsic Evaluations of
+Parsing Systems (2003)</strong>. <em>Proceedings European Association
+for Computational Linguistics (EACL), workshop on Evaluation
+Initiatives in Natural Language Processing</em>, pp. 43-50. Budapest,
+14 April 2003.</li>
+
+<li><a href="EACL2003.pdf"><img height="20" width="20"
+src="../images/pdf.gif"></a> D. Moll&aacute;, R. Schwitter, F. Rinaldi,
+J. Dowdall, M. Hess. <strong>Natural Language Processing for Answer
+Extraction in Technical Domains (2003)</strong>. <em>Proceedings
+European Association for Computational Linguistics (EACL), workshop on
+Natural Language Processing for Question Answering</em>,
+pp. 5-12. Budapest, 14 April.</li>
+
+<li><a
+href="http://www.clt.mq.edu.au/Events/Conferences/anlp2002/proceedings/6Molla.pdf">
+<img height="20" width="20" src="../images/pdf.gif"></a>
+D. Moll&aacute; and B. Hutchinson. <strong>Dependency-based semantic
+interpretation for answer extraction (2002)</strong>. <em>Proc. 2002
+Australasian NLP Workshop (<a
+href="http://www.clt.mq.edu.au/Events/Conferences/anlp2002/">ANLP'02</a>)</em>,
+pp. 25-32, Canberra.</li>
+
+<li>
+<a href="ecai02.pdf"><img width="20" height="20"
+src="../images/pdf.gif"></a> <a href="ecai02.ps.gz"><img width="20"
+height="20" src="../images/ps.gif"></a> F. Rinaldi, J. Dowdall,
+M. Hess, D. Moll&aacute; and Rolf Schwitter <strong>Towards Answer
+Extraction: An Application to Technical Domains (2002)</strong>. In
+F. van Harmelen (ed.), <em>ECAI 2002, Proceedings of the 15th European
+Conference on Artificial Intelligence</em>, pp. 460-464. IOS Press,
+Amsterdam.
+</li>
+
+<li>F. Rinaldi, M. Hess, D. Moll&aacute;, R. Schwitter, J. Dowdall,
+G. Schneider, R. Fournier. <strong>Answer Extraction in Technical
+Domains (2002)</strong>. In A. Gelbukh (ed.), <em>Computational
+Linguistics and Intelligent Text Processing, 3rd International
+Conference <a
+href="http://www.cic.ipn.mx/cicling/2001/">CICLing-2002</a></em>. Springer-Verlag,
+Heidelberg, pp. 360-369.
+</li>
+
+  <li><a href="reading_comprehension.ps.gz"><img width="20"
+  height="20" src="../images/ps.gif"></a> R. Schwitter,
+  D. Moll&aacute;, R. Fournier, and M. Hess.<strong> Answer
+  extraction: Towards better evaluation of NLP systems
+  (2000)</strong>. <em>Proc. Workshop on Reading Comprehension Texts,
+  ANLP-NAACL2000</em>. Seattle.</li>
+
+  <li><a href="tal2.pdf"><img width="20" height="20"
+  src="../images/pdf.gif"></a> <a href="tal2.ps.gz"><img width="20"
+  height="20" src="../images/ps.gif"></a> D. Moll&aacute;,
+  R. Schwitter, M. Hess, and R. Fournier.<strong> ExtrAns, an answer
+  extraction system (2000)</strong>. <em>Traitement Automatique de
+  Langues</em>, 41(2):495-519.</li>
+
+  <li><a href="DGZurich.pdf"><img width="20" height="20"
+  src="../images/pdf.gif"></a> <a href="DGZurich.ps.gz"><img
+  width="20" height="20" src="../images/ps.gif"></a> D. Moll&aacute;,
+  G. Schneider, R. Schwitter, and M. Hess. <strong>Answer extraction
+  using a dependency grammar in ExtrAns
+  (2000)</strong>. <em>Traitement Automatique de Langues</em>,
+  41(1):127-156.</li>
+
+  <li><a href="wambiguity.ps.gz"><img width="20" height="20"
+  src="../images/ps.gif"></a> D. Moll&aacute; and
+  M. Hess. <strong>Dealing with ambiguities in an answer extraction
+  system (2000)</strong>. <em>Proc.  ATALA Workshop on Representation
+  and Treatment of Ambiguity in Natural Language
+  Processing</em>. Paris.</li>
+
+  <li><a href="klagenfurt.ps.gz"><img width="20" height="20"
+  src="../images/ps.gif"></a> D. Moll&aacute; and M. Hess. <strong>On
+  the scalability of the answer extraction system ``ExtrAns''
+  (1999)</strong>. <em>Applications of Natural Language to Information
+  Systems (NLDB'99)</em>, Klagenfurt, Austria. 219-224.</li>
+
+  <li>D. Moll&aacute;, J. Berri, and M. Hess. <strong><a
+  href="http://www.ifi.unizh.ch/CL/hess/nlis.html">A real world
+  implementation of answer extraction</a> (1998).</strong> In
+  <em>Proc. of the 9th International Conference and Workshop on
+  Database and Expert Systems. Workshop ``Natural Language and
+  Information Systems'' (NLIS'98)</em>, Vienna. 143-148</li>
+
+  <li>J. Berri, D. Moll&aacute;, and M. Hess. <strong><a
+  href="http://www.ifi.unizh.ch/groups/CL/berri/taln98.html">Extraction
+  automatique de r&eacute;ponses: impl&eacute;mentation du
+  syst&egrave;me ExtrAns</a> (1998).  </strong> In <em>Proc. of the 5e
+  Conf&eacute;rence Annuelle sur le Traitement Automatique des Langues
+  Naturelles (TALN 1998)</em>, Paris. 12-21.</li>
+</ol>
+
+[<a href="#presentations">Presentations</a> | <a href="#nlp">NLP</a>
+  | <a href="#social">Social Media</a> | <a href="#ebm">Evidence
+  Based Medicine</a> | <a href="#qa">Question Answering</a> |
+Flat Logical Forms
+| <a href="#teaching">Teaching</a> | <a href="#web">Web</a> | <a href="#aspect">Tense/Aspect</a>]
+
+<h2><a name="flf"></a>Flat Logical Forms</h2>
+
+<ol>
+<li>K. B&ouml;ttger, R. Schwitter, D. Moll&aacute;, and
+D. Richards. <strong>Towards Reconciling Use Cases via Controlled
+Language and Graphical Models (2003)</strong>. In O. Bartenstein,
+U. Geske, M. Hannebauer, O. Yoshie (eds.), <em><a
+href="http://www.springer.de/cgi/svcat/search_book.pl?isbn=3-540-00680-X">Web-Knowledge
+Management and Decision Support</a></em>, Lecture Notes in Computer
+Science, Vol. 2543, pp. 115-128, Springer Verlag, Heidelberg, Germany.</li>
+
+    <li><a href="anlp2001.pdf"><img height="20" width="20"
+    src="../images/pdf.gif"></a> D. Moll&aacute; and
+    R. Schwitter. <strong>From plain English to controlled English
+    (2001)</strong>. <em>Proc. 2001 Australasian Natural Language
+    Processing Workshop</em>. Sydney.</li>
+
+    <li><a href="mma2001.ps.gz"><img height="20" width="20"
+    src="../images/ps.gif"></a> D. Moll&aacute;. <strong>Towards
+    incremental semantic annotation (2001)</strong>. <em>Proc. First
+    International Workshop on Multimedia Annotation
+    (MMA-2001)</em>. Tokyo.</li>
+
+    <li><a href="iwcs4.pdf"><img height="20" width="20"
+    src="../images/pdf.gif"></a> <a href="iwcs4.ps.gz"><img width="20" height="20"
+    src="../images/ps.gif"></a> D. Moll&aacute;. <strong>Ontologically
+    promiscuous flat logical forms for NLP
+    (2001)</strong>. <em>Proc. Fourth International Workshop on
+    Computational Semantics (IWCS-4)</em>, pp. 249-265. Tilburg.</li>
+</ol>
+
+[<a href="#presentations">Presentations</a> | <a href="#nlp">NLP</a>
+  | <a href="#social">Social Media</a> | <a href="#ebm">Evidence
+  Based Medicine</a> | <a href="#qa">Question Answering</a> |
+<a href="#flf">Flat Logical Forms</a>
+| Teaching | <a href="#web">Web</a> | <a href="#aspect">Tense/Aspect</a>]
+
+<h2><a name="teaching"></a>Teaching/Curriculum</h2>
+
+<ol>
+
+<li>D. Estival, C. Bow, J. Henderson, B. Kelly, M. Laughren, E. Mayer,
+D. Moll&aacute;, C. Mrowa-Hopkins, R. Nordlinger, V. Rieschild,
+A.C. Schalley, A. Stanley, J. Vaughan. <strong>Australia loves
+language puzzles: The Australian Computational and Linguistics
+Olympiad (OzCLO) (2014)</strong>. <em>Language &amp; Linguistics
+Compass</em>
+  8(12):659-670. <a href="http://doi.wiley.com/10.1111/lnc3.12096">DOI
+    10.1111/lnc3.12096</a></li>
+
+
+<li><a href="http://aclweb.org/anthology/W/W13/W13-3405.pdf"><img height="20" width="20"
+src="../images/pdf.gif"></a>
+D. Estival, J. Henderson, M. Laughren, D. Moll&aacute;, C. Bow,
+R. Nordlinger, V. Rieschild, A.C. Schalley, A.W. Stanley,
+C. Mrowa-Hopkins. <strong>Learning from OzCLO, the Australian
+Computational and Linguistics Olympiad
+(2013)</strong>. <em>Proc. <a href="http://www.teachingnlp.org/">ACL
+2013 Workshop on Teaching NLP/CL With a Focus on Olympiads in
+(Computational) Linguistics</a></em>, Sofia, Bulgaria.
+</li>
+
+<li>R. Dale, D. Moll&aacute;, R. Schwitter. <strong>Natural Language
+Processing in the Undergraduate Curriculum
+(2003)</strong>. <em>Proc. Fifth Australasian Computing Education
+Conference (ACE2003)</em>, Adelaide, Australia.</li>
+
+<li><a href="aclteaching2002.pdf"><img height="20" width="20"
+src="../images/pdf.gif"></a> R. Dale, D. Moll&aacute;,
+R. Schwitter. <strong>Evangelising Language Technology: A
+practically-focussed undergraduate program (2002).</strong>
+<em>Proc. ACL 2002 Workshop on Effective Tools and Methodologies for
+Teaching NLP and Computational Linguistics</em>, Philadelphia.
+</li>
+</ol>
+
+[<a href="#presentations">Presentations</a> | <a href="#nlp">NLP</a>
+  | <a href="#social">Social Media</a> | <a href="#ebm">Evidence
+  Based Medicine</a> | <a href="#qa">Question Answering</a> |
+<a href="#flf">Flat Logical Forms</a>
+| <a href="#teaching">Teaching</a> | Web | <a href="#aspect">Tense/Aspect</a>]
+
+<h2><a name="web"></a>Web</h2>
+<ol>
+<li><a href="http://www.ifi.unizh.ch/groups/CL/schwitter/inap.ps.gz"><img width="20" height="20" src="../images/ps.gif"></a> W. Vasconcelos, R. Schwitter, D. Moll&aacute;,
+	J. Cavalcanti. <strong>Implementing Prolog-Run WWW 
+	  Sites (2000)</strong>. <em>Proc.
+     13th International Conference on Applications of Prolog
+	  (INAP2000)</em>, pp. 60-65. Waseda University, Tokyo. </li>
+</ol>
+
+[<a href="#presentations">Presentations</a> | <a href="#nlp">NLP</a>
+  | <a href="#social">Social Media</a> | <a href="#ebm">Evidence
+  Based Medicine</a> | <a href="#qa">Question Answering</a> |
+<a href="#flf">Flat Logical Forms</a>
+| <a href="#teaching">Teaching</a> | <a href="#web">Web</a> | Tense/Aspect]
+
+<h2><a name="aspect"></a>Tense/Aspect</h2>
+<ol>
+  <li>D. Moll&aacute;. <strong><a href="phd/abstract.html">Aspectual Composition and
+    Sentence Interpretation: A formal approach</a> (1997).</strong> PhD
+    thesis. The University of Edinburgh.</li>
+  <li>D. Moll&aacute;. <strong><a
+    href="http://www.ling.ed.ac.uk/~pgc/archive/Proc96/diego.abs">Aspectual
+    composition and our (linguistic) interpretation of the world</a>
+    (1996).</strong> Departmental Conference of Linguistics and Applied
+    Linguistics, University of Edinburgh.  <a
+    href="http://www.ling.ed.ac.uk/~pgc/archive/Proc96/">On-line</a>
+    publication.</li>
+  <li><a href="manchest.ps.gz"><img width="20" height="20" src="../images/ps.gif"></a> D. Moll&aacute;. <strong>On the aspectual interactions
+    between verbs and NPs (1996).</strong>  The 5th Manchester University
+    Postgraduate Linguistics Conference.  In <em>Papers in Linguistics from the
+    University of Manchester</em>, Vol.1(1), Manchester University.</li>
+  <li><a href="edin1.ps.gz"><img width="20" height="20" src="../images/ps.gif"></a> D. Moll&aacute;. <strong>On the influences of noun
+    phrases in the determination of the sentence aspectual class
+	  (1994).</strong>  <em>Proceedings of the Edinburgh
+	  Linguistics Department 
+    Conference '94</em>.  Department of Linguistics, University of
+  Edinburgh.</li>
+  <li><a href="msc.ps.gz"><img width="20" height="20"
+	    src="../images/ps.gif"></a> D. Moll&aacute;. <strong>Integrating
+	  time into DRT: A
+    Computational Approach.</strong> Final dissertation of the Msc on <a
+    href="http://www.ling.ed.ac.uk/teaching/postgrad/mscslp/"
+    target="_top">Speech and Language Processing</a> at the <a
+    href="http://www.ed.ac.uk/" target="_top">University of
+  Edinburgh</a>.</li>
+</ol>
+<hr>
+
+<h3><a name="encoding">Note on formatting</a></h3>
+
+<p>Some of the older papers have been formatted in
+<strong>postscript</strong>, and compressed with the
+<strong>gzip</strong> compressing tool. I think that the web server
+over here automatically delivers the files uncompressed, but I'm not
+sure about it now. If you need to uncompress the files, you can <a
+href="http://www.gzip.org/">download gzip</a>. The resulting
+postscript file can be printed directly on any postscript printer. If
+you want to preview the files, you can always use <a
+href="http://www.cs.wisc.edu/~ghost/">ghostscript</a>.</p>
+
+<p>Papers formatted in <strong>PDF</strong> are not compressed (PDF
+	contains a compression algorithm). A popular free previewer of
+      PDF files is <a href="http://www.adobe.com/products/acrobat/">Acrobat Reader.</a></p>
+
+<p>If you have trouble in downloading any of the papers, or you cannot
+uncompress/print/view them, I will be happy to send you the papers in your
+preferred format (that is, if I can do it!). Just <a
+href="mailto:diego.molla-aliod@mq.edu.au">send me an e-mail</a>.</p>
+
+<?php include("../footer.html"); ?>

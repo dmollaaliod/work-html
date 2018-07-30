@@ -1,0 +1,385 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/REC-html401/loose.dtd">
+<html>
+<head>
+  <title>Diego Moll&aacute; Aliod's Undergraduate and Postgraduate Projects</title>
+  <meta http-equiv="Content-Type" content="text/html;
+    charset=ISO-8859-1">  
+<link rel="stylesheet" href="stylesheet.css" type="text/css">
+
+<meta name="verify-v1"
+    content="0S5wIGveGMFoFTg/uBfWH5BzcBqUh84l7Sa/i4OLwNc=" />
+</head>
+
+<body>
+
+<p class="breadcrumb">
+[<a href="index.html">Diego Moll&aacute;</a> / <strong>Student Projects</strong>]
+</p>
+
+
+<h2>List of Undergraduate and Postgraduate Projects</h2>
+
+<p>Below is a list of possible projects for Honours and Masters
+students at Macquarie University. Please contact me for further
+details. Also, if you have a project in mind which is not listed here
+but that is related to my <a
+href="index.html#researchinterests">research interests</a>, contact me
+and chances are that I will be interested too.</p>
+
+<p>Many of these projects are related to AnswerFinder. AnswerFinder is
+a question answering system that finds the answer to an arbitrary
+question by exploring text documents. He have built a prototype of the
+system but there are still a lot of things to do.
+</p>
+<ul>
+  <li><a
+href="answerfinder">AnswerFinder website</a></li>
+<li><a
+href="#honoursmasters">Honours/Masters projects</a></li>
+<li><a href="#vacation">Summer
+Vacation projects</a></li>
+</ul>
+
+
+
+<hr>
+<p class="breadcrumb">[<a href="">top</a>]</p>
+<h3><a name="honoursmasters"></a>Honours and Masters Projects</h3>
+
+<ul>
+
+<li><a href="#nlp2">Using GPU Cores for Machine Learning</a> (Masters)</li>
+<li><a href="#nlp1">Frameworks for MapReduce Computations</a> (Masters)</li>
+
+<li><a href="#bionlp10">Conversion of Research Publications into XML</a> (Masters)</li> 
+<li><a href="#bionlp8">Extract Population Sizes</a> (Masters)</li> 
+<li><a href="#bionlp9">Classification of Medical Questions</a> (Honours)</li> 
+<li><a href="#bionlp11">Evidence Grading versus Bibliometrics</a></li>
+<li><a href="#bionlp5">Cluster Medical Research Papers</a> (Masters, Honours)</li>
+  <li><a href="#bionlp2">Determine the Strength of Evidence in Medical Text</a></li>
+  <li><a href="#bionlp7">Text Classification and Text Structure</a></li>
+  <li><a href="#bionlp6">Summarise Medical Research Papers</a></li>
+
+  <li><a href="#molla1">Classification of Questions</a></li>
+  <li><a href="#molla2">Answering Complex Questions</a></li>
+  <li><a href="#molla2">Answering Medical Questions</a></li>
+  <li><a href="#molla3">Representing the Semantics of Sentences</a></li>
+  <li><a href="#molla4">Graph-based Question Answering</a></li>
+  <li><a href="#qa">Choose Your Topic on Question Answering</a></li>
+
+  <li><a href="#cmcrc2">News Clustering</a></li>
+  <li><a href="#cmcrc1">Summarisation of Financial News in Context</a></li>
+  <li><a href="#cmcrc3">Financial News Classification</a></li>
+  <li><a href="#cmcrc4">Automated Moderation of Web Forums</a></li>
+  <li><a href="#cmcrc5">Automatic Identification and Labeling of Tables in Web Forums</a></li>
+
+  <li><a href="#folk">Folksonomies</a></li>
+  <li><a href="#molla6">Using the Web for Term Translation</a></li>
+
+</ul>
+
+<h3>Natural Language Processing</h3>
+
+<a name="nlp2"></a>
+<h4>Using GPU Cores for Machine Learning</h4>
+
+<p>(Masters analysis project)</p>
+
+<p>Most machine learning applications use matrix operations in their
+  computation. This is the sort of computation that can be executed in
+  parallel easily. GPUs are designed to perform efficient parallel
+  computations of matrix operations and recently there are several
+  programming environments that support the use of GPUs for
+  applications other than graphics. In this project you will study the
+  current GPU environments available for Python in linux machines
+  (Ubuntu). You will be given a set of machine learning algorithms
+  (e.g. linear regression, logistic regression, k-means clustering,
+  neural networks) that you will adapt to these GPU environments.
+</p>
+
+
+<hr>
+
+<h3>Natural Language Processing for Medical Text</h3>
+
+<a name="bionlp10"></a>
+<h4>Conversion of Research Publications into XML</h4>
+
+<p>(Masters project)</p>
+
+<p>We have a collection of medical questions and their answers, and
+  pointers to the full text of the papers. However, the format of
+  these papers depends on the publisher. The goal of this project is
+  to extract the full text and normalise as much of it as
+  possible. You will first determine the target format, which will
+  likely be based on the Text Encoding Initiative or PubMed
+  Central. Then you will identify types of publications that have
+  format which is easy to analyse and then move on to more difficult
+  formats. Most of the work will be done on HTML and XML text.</p>
+
+<a name="bionlp8"></a>
+<h4>Extract Population Sizes</h4>
+
+<p>(Masters project)</p>
+
+<p>An important characteristic that determines the quality of the evidence provided in a clinical study is the size of the population sampled in the experiments. The goal of this project is to determine the size given the text of a clinical study. The task involves determining whether a text describes experiments and the size of the population, and then extract the information about the size and analyse the resulting expressions.</p>
+
+<a name="bionlp9"></a>
+<h4>Classification of Medical Questions</h4>
+
+<p>(Honours project)</p>
+
+<p>We have a collection of medical questions and their answers. The goal of this project is to cluster the questions according to the structure of the answers, and compare the resulting question taxonomy with current question taxonomies. The project involves the application of unsupervised machine learning (clustering, topic modelling) and the analysis of the results.</p>
+
+<a name="bionlp11"></a>
+<h4>Evidence Grading versus Google PageRank and Bibliometrics</h4>
+
+<p>(Masters or Honours project)</p>
+
+<p>We have a corpus of questions and answer documents. The answer
+  documents are grouped into related documents, and the group is
+  annotated with an index indicating the quality of the combined
+  answer according to criteria of Evidence Based Medicine. The task is
+  to test whether approaches typically used to rank documents can be
+  used to approximate the evidence grading. In particular, you will
+  study Google's PageRank and other criteria used in search engines,
+  and bibliometrics and other criteria used to determine the quality
+  of research publications.</p>
+
+<a name="bionlp5"></a>
+<h4>Cluster Clinical Research Papers</h4>
+
+<p>(Masters or Honours project)</p>
+
+<p>We have a corpus of questions and answers. Each answer has a list of references arranged in groups according to how they address the answer. For example, if the question is "what is the best treatment for X", then the answer will have a group of references for each major treatment of X. The goal of this project is to automatically infer the clusters of the references associated with a question. A secondary goal is to label the clusters by determining what are the key terms characterising the clusters.</p>
+
+
+<a name="bionlp2"></a>
+<h4>Determine the Strength of Evidence in Medical Text</h4>
+
+<p>(Masters or Honours project)</p>
+
+<p>An important piece of information for a medical doctor is to
+  determine how strong is the evidence presented in the medical
+  literature. In this project you will develop methods to
+  automatically determine the strength of evidence of medical research
+  articles. For this you will implement current written guidelines for
+  the appraisal of medical research.</p>
+
+
+<a name="bionlp7"></a>
+<h4>Text Classification and Text Structure</h4>
+
+<p>We have a collection of abstracts from medical research
+papers. Some of them are structured with headings, some are not. The
+abstracts are also classified by type of publication (systematic
+review, case study, etc). In this project you will explore the
+possibility of implementing a system that automatically finds the
+abstract structure using information about the abstract type, and
+another system that automatically finds the abstract type using
+information about its structure. The hypothesis to test is that
+performance of each task mutually improves performance of the other
+task.</p>
+
+<a name="bionlp6"></a>
+<h4>Summarise Medical Research Papers</h4>
+
+<p>Using the collection of documents for PubMed Central, design an
+automatic summariser that finds the most important sentences. The
+collection of text from PubMed Central is large enough so that one can
+try to apply machine learning techniques. The documents use a uniform
+XML format so that you can easily incorporate formatting information
+(headings, etc).</p>
+
+<h3>AnswerFinder Projects</h3>
+
+<a name="qa"></a>
+<h4>Choose Your Topic on Question Answering</h4>
+
+<p>All the above projects are examples of projects that I am
+particularly interested in. If you have a proposal related to
+question-answering technology or language technology related to the
+financial domain, feel free to come and discuss it with me. You might
+have the killer idea!</p>
+
+
+<a name="molla3"></a>
+<h4>Representing the Semantics of Sentences</h4>
+
+<p>
+AnswerFinder uses logical forms to determine if a sentence contains
+the answer to the question. These logical forms, however, are rather
+difficult to understand by humans and therefore the process of
+manually discovering inference rules to add to the system is
+time-consuming. The goal of this project is to determine methods to
+simplify the representation of logical forms to the user. The methods
+may be a combination of graphical expressions (e.g. represent the
+dependencies between the concepts graphically) or natural language
+generation (e.g. write a paraphrase that accurately describes the
+contents of the logical form), or something else. You decide!
+</p>
+
+<a name="molla4"></a>
+<h4>Graph-based Question Answering</h4>
+
+<p>AnswerFinder uses an innovative representation of sentences and
+  questions. A sentence is a structured collection of words. This
+  structure is represented as a graph where the nodes are the concepts
+  expressed in the sentence, and the arcs are the relations between
+  the concepts. The aim of this project is to explore the use of
+  variations of such graphs as means of sentence representation for
+  the task of question answering. The project will involve the
+  automatic creation of the graph, the use of graph theory methods to
+  determine if a sentence can answer a specific question, and the
+  extraction of the exact answer from the question.
+</p>
+
+
+<a name="molla2b"></a>
+<h4>Answering Medical Questions</h4>
+<p><a href="http://www.ncbi.nlm.nih.gov/PubMed">PUBMED</a> is a huge
+  collection of research documents that focuses on biology and
+  medicine. We have a collection of medical questions and their
+  answers. The goal of this project is to automatically find the
+  answers in the PUBMED collection.</p>
+
+<a name="molla1"></a>
+<h4>Classification of Questions</h4> 
+
+<p>AnswerFinder is a question answering system that currently uses
+very simple rules to determine the type of information a question is
+asking for. The goal of this project is to build a question
+classification system that automatically learns the types of questions
+by analysing a corpus that is annotated with the correct question
+types. This project is especially suitable to those who have done or
+are doing COMP348.
+</p>
+
+<a name="molla2"></a>
+<h4>Answering Complex Questions</h4> 
+
+<p>A variation of AnswerFinder attempts to answer complex questions
+where the answer needs to be composed by exploring several
+documents. The current system simply presents all sentences that have
+some part of the answer but this can be done better. The goal of this
+project is to combine the independent answers in such a way that the
+resulting answer is coherent and has reduced redundancy.
+</p>
+
+
+<h3>Natural Language Processing for Financial Text</h3>
+
+<p> <strong>CMCRC</strong> is the Capital Markets Cooperative Research
+  Centre. This is the initiative of a group of researchers,
+  Universities and industry partners. CMCRC focuses on the development
+  of new and innovative technologies for the capital markets
+  domain.</p>
+
+<ul>
+  <li><a href="http://www.cmcrc.com/">CMCRC website</a></li>
+</ol>
+<li><a href="http://www.cmcrc.com/index.php/component/content/article/121-tm-honours-projects">Additional
+    Honours Projects at CMCRC</a></li>
+</ul>
+
+<a name="cmcrc2"></a>
+<h4>News Clustering</h4>
+
+<p>CMCRC has lists of news that presumably triggered a market
+  alert. The goal of this project is to cluster (make groups)
+  documents that are marked as relevant to an alert. An added
+  challenge is to incorporate the text of the alert as the context on
+  which to base the clusters. Then the clusters should be presented by
+  indicating the criteria (common concepts) that define them. A
+  baseline is to use keyword overlap to cluster documents and present
+  the clusters. More complex methods would involve using graph
+  representations such as the ones used by AnswerFinder.</p>
+
+<a name="cmcrc1"></a>
+<h4>Summarisation of Financial News in Context</h4> 
+
+<p>CMCRC has a collection of past market alerts and a list of news
+items that are presumably related to the alert. The goal of this
+project is to present summaries of the news in context with the topic
+of the alert so that a financial expert can easily skim over the news
+items. Techniques to try here include selecting fragments with shared
+words with the topic (like Google's snippets) and more ambitious
+methods that use syntactic and semantic information.</p>
+
+
+<a name="cmcrc3"></a>
+<h4>Financial News Classification</h4>
+
+<p>CMCRC has a list of news classified according to typical news
+  categories, but these categories differ from those of market
+  tickers. The goal of this project is to re-classify the news using
+  as categories from the market tickers. Part of this project involves
+  mapping the original taxonomy of news types to the specific one
+  based on market tickers. Conflicts and ambiguities will need to be
+  resolved.</p>
+
+<a name="cmcrc4"></a>
+<h4>Automatic Moderation of Web Forums</h4>
+
+<p>Web forums are plagued with various types of unwanted content such
+as spam, obscene and malicious contents.  The CMCRC has a collection of
+messages from a very large Australian forum of moderated messages.
+The goal of this project is to build a system to automatically check
+the content of messages in web forums using classification techniques.
+The main challenges are from the text side and the classification
+side: on the text side, inappropriate messages are often undetectable
+using a basic spam classifier, which implies that non-lexical features
+(e.g. mythological and semantic features) need to be identified and
+used. From the classification perspective, the task is difficult
+because 1) the training set is partially labeled and 2) the training
+set only contains inappropriate examples.</p>
+
+
+<a name="cmcrc5"></a>
+<h4>Automatic Identification and Labeling of Tables in Web Forums</h4>
+
+<p>Messages posted on financial forums often contain tables of
+transactions used to show abnormal price/volume movements.  The goal
+of this project is to build a system that can first identify tables of
+transactions in forum posts in order to extract information from these
+tables (i.e. date, time, ticker, price, volume).  In the second step,
+clustering techniques should be applied on posts containing tables of
+transactions in order to discover the main types of reasons for users
+to put tables in their messages.  Finally, a small dataset will be
+manually labeled in order to train classifier to automatically
+identify abnormal price/volume movements mentioned by forum users.</p>
+
+<h3>Other Projects</h3>
+
+<a name="nlp1"></a>
+<h4>Frameworks for MapReduce Computations</h4>
+
+<p>(Masters analysis project)</p>
+
+<p>MapReduce is a software framework introduced by Google to support distributed computing on large data sets on clusters of computers but there are more, such as Apache's Hadoop. The goal of this project is to test and analyse the current frameworks for tasks of text processing in distributed computing.</p>
+
+<a name="folk"></a>
+<h4>Folksonomies</h4>
+
+<p>Folksonomies are tags created by the public, such as the tags used
+in del.icio.us and in www.flickr.com. For this project you will work
+with these tags for mining for information. Stuff that can be mined
+could be to find related tags, detect synonyms and spelling errors, or
+suggest a set of tags given a short business description. If you're
+interested, include a proposal of what you want do with these tags and
+we will explore the possibilities.</p>
+
+
+<a name="molla8"></a>
+<h4>Using the Web for Term Translation</h4> 
+
+<p>Human translators often find it difficult to determine the exact
+translation of technical terms in specialised areas. The goal of this
+project is to build a system that, given a term in a specific
+document, uses the Web to find the most likely translations in the
+target language. This project combines multilingual information
+retrieval techniques with machine translation techniques.
+</p>
+
+</body>

@@ -1,0 +1,429 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>NLP of Medical Texts | Macquarie University</title>
+    <link rel="shortcut icon" href="favicon.ico" >
+    <base href="http://www.ics.mq.edu.au/~diego/medicalnlp/">
+
+<?php include("header.html"); ?>
+
+				<div id="breadcrumb">
+
+                <!--UPDATE BREADCRUMB-->
+					<strong>You are here:</strong>
+					<ul>
+<li><a href="http://www.clt.mq.edu.au">Centre for Language Technology</a>&nbsp;&raquo;</li>
+<li><a href="http://web.science.mq.edu.au/~diego">Diego Moll&aacute; Aliod</a>&nbsp;&raquo;</li>
+<li><a href="http://web.science.mq.edu.au/~diego/medicalnlp">NLP of
+    Medical Texts</a>&nbsp;&raquo;</li>
+					</ul>
+
+				</div><!--/breadcrumb-->
+                <!--BEGIN CONTENT AREA, COLUMN 2-->
+				<div id="column-2">
+
+
+    <h1>Natural Language Processing of Medical Texts</h1>
+
+<p>This project focuses on the application of natural language
+  processing techniques on medical texts. We pay special emphasis on
+  finding methods to help the practice
+  of <a href="http://en.wikipedia.org/wiki/Evidence-based_medicine">evidence
+  based medicine</a>.</p>
+
+
+<h3>Live Demos</h3>
+<ul>
+  <li><a href="http://130.56.244.116:8000/">WebEBMSummariser</a> - This
+  is a demo of the sort of functionality that we wish to achieve in
+  this project. Many of the backend components of this demo are
+  simple baselines, so don't expect to get accurate results! But feel
+  free to send us suggestions about the functionality, and definitely
+  <a href="mailto:diego.molla-aliod@mq.edu.au">contact Diego</a> if
+  you wish to join this project and improve the system!</li>
+</ul>
+
+<h3><a name="resources">Resources</a></h3>
+
+<ul>
+  <li><a href="https://github.com/dmollaaliod/alta2017-rl">Github code for reinforcement learning</a><br>
+If you use this code, please cite:<br>
+<a href="https://aclanthology.coli.uni-saarland.de/papers/U17-1012/u17-1012"><img src="../images/pdf.gif"
+width="20" height="20"></a>  D. Moll&aacute;. <strong>Towards the Use of Deep Reinforcement Learning with Global Policy For Query-based Extractive Summarisation (2017)</strong>. <em>Proc. ALTA 2017</em> [<a href="https://arxiv.org/abs/1711.03859">arxiv</a>] [<a href="https://github.com/dmollaaliod/alta2017-rl">code</a>].</li>
+  <li><a href="https://hub.docker.com/r/dmollaaliod/bioasq5b/">Docker image of the code that generated the runs for BioASQ 5b</a><br>
+If you use this code, please cite:<br>
+<a href="https://aclweb.org/anthology/W/W17/W17-2308.pdf"><img src="../images/pdf.gif"
+						      width="20" height="20"></a> D. Moll&aacute;. <strong>Macquarie University at BioASQ 5b -- Query-based Summarisation Techniques for Selecting the Ideal Answers (2017)</strong>. <em>Proc. BioNLP 2017</em>. [<a href="https://arxiv.org/abs/1706.02095">arxiv</a>] [<a href="https://hub.docker.com/r/dmollaaliod/bioasq5b/">docker image</a>]
+  </li>
+  <li><a href="http://sourceforge.net/projects/ebmsumcorpus/">Corpus for EBM Query-based Summarisation</a><br>
+   If you use this corpus, please cite:<br>
+<a href="http://link.springer.com/article/10.1007/s10579-015-9327-2"><img src="../images/pdf.gif"
+width="20" height="20"></a> D. Moll&aacute;, M.E. Santiago-Mart&iacute;nez A. Sarker,
+  C. Paris. <strong>A Corpus for Research in Text Processing for
+  Evidence Based Medicine (2016)</strong>. <em>Language Resources
+  and Evaluation,</em> 50(4):705-727. <a href="http://link.springer.com/article/10.1007/s10579-015-9327-2">DOI 10.1007/s10579-015-9327-2</a>
+  </li>
+  <li><a href="https://bitbucket.org/asarker/ebmsummariser">EBMSummariser</a><br>
+    If you use
+    this code, please cite:<br>
+
+<a href="http://dx.doi.org/10.1016/j.jbi.2015.11.010"><img src="../images/pdf.gif"
+width="20" height="20"></a> A. Sarker, D. Moll&aacute;, C. Paris. <strong>Query-Oriented
+    Evidence Extraction to Support
+    Evidence-based Medicine Practice (2016)</strong>. <em>Journal of
+    Biomedical Informatics,</em> 59:169-184. <a href="http://dx.doi.org/10.1016/j.jbi.2015.11.010">DOI 10.1016/j.jbi.2015.11.010</a>
+  </li>
+  <li><a href="http://sourceforge.net/projects/clinevidence/">Clinical
+  Evidence Detector</a><br>
+If you use this code, please cite:<br>
+<a
+href="../publications/hikm12.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> P. Davis-Desmond and Diego Moll&aacute;. <strong>Detection of
+    Evidence in Clinical Research Papers
+    (2012)</strong>. <em>Australasian Workshop On Health Informatics
+    and Knowledge Management
+    (<a href="http://publichealth.curtin.edu.au/HIKM/">HIKM
+      2012</a>)</em>, Melbourne, Australia. [<a href="slides/HIKM2012.pdf">slides</a>]
+
+</li>
+</ul>
+
+<h3><a name="members">Members</a></h3>
+<ul>
+  <li><a href="http://www.ics.mq.edu.au/~diego">Diego Moll&aacute;</a>
+      (project director and chief investigator)</li>
+  <li><a href="http://www.ict.csiro.au/staff/cecile.paris/">C&eacute;cile
+  Paris</a> (partner investigator, CSIRO ICT Centre)</li>
+</ul>
+
+<h3><a name="members">Past Members</a></h3>
+<p>The following people have done significant work for the project,
+  leading to publication.</p>
+<ul>
+  <li>Abeed Sarker (PhD student)</li>
+  <li>Patrick Davis-Desmond (Masters student)</li>
+  <li>Sara Faisal Shash (Masters student)</li>
+  <li>Andreea Tutos (Masters student)</li>
+  <li>Christopher Jones (research programmer)</li>
+  <li>Maria Elena Santiago-Martinez
+	(research programmer)</li>
+  <li>Hamed Hassanzadeh (research visitor)</li>
+</ul>
+
+<h3><a name="join">Join this Project</a></h3>
+<p>There are several ways you can join this project:</p>
+<ul>
+  <li>As a <strong>PhD student</strong>: If you have an interesting
+  topic of research that has to do with question answering and/or summarisation, <a href="mailto:diego.molla-aliod@mq.edu.au">send us an email</a> and we will get in touch with you. </li>
+  <li>As a <strong>Masters/Honours student</strong>: If you are a Masters or an Honours student in Macquarie University and you are searching for a project, consult the <a href="http://www.ics.mq.edu.au/~diego/studentprojects.html">list of Honours projects</a>. Many of these projects can be adapted to Masters projects. </li>
+  <li>As an <strong>undergraduate student</strong>: If you are a student enrolled in Macquarie University you can also work for AnswerFinder and get paid for it. Consult the <a href="http://www.ics.mq.edu.au/~diego/studentprojects.html">list of summer projects</a>. </li>
+</ul>
+
+<h3><a name="links">Related Links</a></h3>
+<ul>
+<li>Related <a
+	       href="http://www.clt.mq.edu.au/Teaching/HonoursProjects.html#answerfinder">Honours Projects</a></li>
+<li>Related <a href="http://www.clt.mq.edu.au/Information/Scholarships.html">PhD Scholarships</a></li>
+<li>Other <a
+	     href="http://www.clt.mq.edu.au/Research/Projects.html">projects</a> at the Centre for Language Technology</li>
+</ul>
+
+
+<h3><a name="publications">Publications</a></h3>
+
+<ol>
+<li><a href="https://trec.nist.gov/pubs/trec26/papers/CSIRO-PM.pdf"><img src="../images/pdf.gif"
+width="20" height="20"></a> V. Nguyen, S. Karimi, S. Falamaki, D. Moll&aacute;, C. Paris, S. Wan. <strong>CSIRO at 2017 TREC Precision Medicine Track</strong>. <em>The Twenty-Sixth Text REtrieval Conference</em>.</li>
+<li><a href="https://aclanthology.coli.uni-saarland.de/papers/U17-1012/u17-1012"><img src="../images/pdf.gif"
+width="20" height="20"></a> D. Moll&aacute;. <strong>Towards the Use of Deep Reinforcement Learning with Global Policy For Query-based Extractive Summarisation (2017)</strong>. <em>Proc. ALTA 2017</em> [<a href="https://arxiv.org/abs/1711.03859">arxiv</a>] [<a href="https://github.com/dmollaaliod/alta2017-rl">code</a>].
+</li>
+<li><a href="https://aclweb.org/anthology/W/W17/W17-2308.pdf"><img src="../images/pdf.gif"
+						      width="20" height="20"></a> D. Moll&aacute;. <strong>Macquarie University at BioASQ 5b -- Query-based Summarisation Techniques for Selecting the Ideal Answers (2017)</strong>. <em>Proc. BioNLP 2017</em>. [<a href="https://arxiv.org/abs/1706.02095">arxiv</a>] [<a href="https://hub.docker.com/r/dmollaaliod/bioasq5b/">docker image</a>]</li>
+  <li><a href="https://arxiv.org/pdf/1706.08162"><img src="../images/pdf.gif"
+						      width="20" height="20"></a> A. Sarker, D. Moll&aacute;, C. Paris <strong>Automated Text Summarisation and Evidence-Based Medicine: A Survey of Two Domains (2017)</strong>.  <a href="https://arxiv.org/abs/1706.08162">arXiv:1706.08162</a>, 35 pages.
+  </li>
+    <li><a href="https://aclweb.org/anthology/W/W16/W16-4205.pdf"><img src="../images/pdf.gif"
+width="20" height="20"></a> P. Sahoo, A. Ekbal, S. Saha, D. Moll&aacute;,
+  K. Nandan. <strong>Semi-supervised Clustering of Medical
+  Text (2016)</strong>. Proceedings of the COLING 2016 Workshop on
+  Clinical Natural Language Processing
+  (<a href="https://text-machine-lab.github.io/ClinicalNLP2016/">ClinicalNLP</a>). Best
+  paper award in "long paper" category.
+  </li>
+
+<li><a href="http://link.springer.com/article/10.1007/s10579-015-9327-2"><img src="../images/pdf.gif"
+width="20" height="20"></a> D. Moll&aacute;, M.E. Santiago-Mart&iacute;nez A. Sarker,
+  C. Paris. <strong>A Corpus for Research in Text Processing for
+  Evidence Based Medicine (2016)</strong>. <em>Language Resources
+  and Evaluation,</em> 50(4):705-727. <a href="http://link.springer.com/article/10.1007/s10579-015-9327-2">DOI 10.1007/s10579-015-9327-2</a></li>
+
+<li><a href="http://dx.doi.org/10.1016/j.jbi.2015.11.010"><img src="../images/pdf.gif"
+width="20" height="20"></a> A. Sarker, D. Moll&aacute;, C. Paris. <strong>Query-Oriented
+    Evidence Extraction to Support
+    Evidence-based Medicine Practice (2016)</strong>. <em>Journal of
+    Biomedical Informatics,</em> 59:169-184. <a href="http://dx.doi.org/10.1016/j.jbi.2015.11.010">DOI 10.1016/j.jbi.2015.11.010</a></li>
+
+<li><a href="https://aclweb.org/anthology/U/U15/U15-1001.pdf"><img src="../images/pdf.gif"
+width="20" height="20"></a>
+M. Yousefi Azar, K. Sirts, L. Hamey, D. Moll&aacute;.
+<strong>Query-Based Single Document Summarization Using an Ensemble Noisy
+Auto-Encoder (2015)</strong>. <em>Proceedings of the Australasian
+  Language Technology Association Workshop 2015</em>, pp2-10</li>
+
+<li><a href="https://aclweb.org/anthology/U/U15/U15-1006.pdf"><img src="../images/pdf.gif"
+width="20" height="20"></a>
+H. Hassanzadeh, D. Moll&aacute;, T. Groza, A. Nguyen, J. Hunter.
+<strong>Similarity Metrics for Clustering PubMed Abstracts for Evidence Based
+Medicine (2015)</strong>. <em>Proceedings of the Australasian Language
+  Technology Association Workshop 2015</em>, pp48-56</li>
+
+<li><a href="http://dx.doi.org/10.1016/j.artmed.2015.04.001"><img src="../images/pdf.gif"
+width="20" height="20"></a> A. Sarker, D. Moll&aacute;, C. Paris. <strong>Automatic Evidence
+    Quality Prediction to Support Evidence-based Decision Making
+    (2015)</strong>. <em>Artificial Intelligence in Medicine</em>,
+  64(2)89-103. <a href="http://www.ncbi.nlm.nih.gov/pubmed/25983133">PubMed
+    ID 25983133</a>. <a href="http://dx.doi.org/10.1016/j.artmed.2015.04.001">DOI 10.1016/j.artmed.2015.04.001</a></li>
+
+<li><a href="http://aclweb.org/anthology/U/U14/U14-1010.pdf"><img src="../images/pdf.gif"
+width="20" height="20"></a> D. Moll&aacute;, Christopher Jones,
+  Abeed Sarker.
+<strong>Impact of Citing Papers for Summarisation of Clinical Documents (2014)</strong>. <em>Proceedings of the Australasian
+Language Technology Association Workshop 2014
+(<a href="http://www.alta.asn.au/events/alta2014/">ALTA 2014</a>)</em>,
+pp53-61, Brisbane,
+Australia. DOI 10.13140/2.1.2366.1126
+[<a href="http://www.slideshare.net/dmollaaliod/alta2014-slides-42202879">slideshare</a>]
+[<a href="http://www.researchgate.net/publication/268957603_Impact_of_Citing_Papers_for_Summarisation_of_Clinical_Documents">researchgate</a>]
+</li>
+
+<li><a href="http://143.167.100.11/GEAR-workshop/gear2014-Moll%C3%A1.pdf"><img src="../images/pdf.gif" width="20" height="20"></a> D. Moll&aacute;, I. Amini, D. Martinez. <strong>Document Distance for the Automated Expansion of Relevance Judgements for Information Retrieval Evaluation (2014)</strong> <em>Proceedings ACM SIGIR Workshop on Gathering Efficient Assessments of Relevance (<a href="https://sites.google.com/site/sigirgear/">GEAR</a>)</em>, Gold Coast, Australia. [<a href="http://www.slideshare.net/dmollaaliod/gear2014">slideshare</a>] [<a href="https://www.researchgate.net/publication/263967018_Document_Distance_for_the_Automated_Expansion_of_Relevance_Judgements_for_Information_Retrieval_Evaluation?ev=prf_pub">researchgate</a>]</li>
+<li><a href="../publications/adcs2013.pdf"><img src="../images/pdf.gif" width="20"
+height="20"></a> D. Moll&aacute;, D. Martinez, and
+I. Amini. <strong>Towards Information Retrieval Evaluation with
+Reduced and Only Positive Judgements (2013)</strong>. <em>Proceedings
+of the 18th Australasian Document Computing Symposium
+(<a href="http://www.adcs2013.qut.edu.au/">ADCS 2013</a>)</em>,
+Brisbane, Australia. [<a href="../publications/adcs2013poster.pdf">poster</a>]</li>
+
+<li><a href="http://aclweb.org/anthology/U/U13/U13-1008.pdf"><img src="../images/pdf.gif"
+width="20" height="20"></a> A. Ekbal, S. Saha, D. Moll&aacute;, and K. Ravikumar.
+<strong>Multi-Objective Optimization for Clustering of Medical
+Publications (2013)</strong>. <em>Proceedings of the Australasian
+Language Technology Association Workshop 2013
+(<a href="http://www.alta.asn.au/events/alta2013/">ALTA 2013</a>)</em>,
+pp53-61, Brisbane,
+Australia. [<a href="http://www.slideshare.net/dmollaaliod/slides-29018348">slideshare</a>]
+</li>
+
+<li><a href="../publications/ijcnlp2013.pdf"><img src="../images/pdf.gif"
+width="20" height="20"></a> A. Sarker,
+D. Moll&aacute;, C. Paris. <strong>Automatic Prediction of Evidence-based Recommendations via Sentence-level Polarity Classification (2013)</strong>. <em>Proceedings 6th International Joint Conference on Natural Language Processing (<a href="http://ijcnlp2013.org/">IJCNLP2013</a>)</em>, pp712-718, Nagoya, Japan. [<a href="http://www.slideshare.net/dmollaaliod/ijcnlp2013-slides">slideshare</a>]
+</li>
+
+<li><a href="http://link.springer.com/chapter/10.1007/978-3-642-38326-7_41"><img src="../images/pdf.gif"
+width="20" height="20"></a> A. Sarker,
+D. Moll&aacute;, C. Paris. <strong> An Approach for Query-Focused Text Summarisation for Evidence Based Medicine (2013)</strong>. <em>Proceedings
+of the 14th Conference on Artificial Intelligence in Medicine
+(<a href="http://www.aimedicine.info/aime13/">AIME 2013</a>)</em>,
+  Murcia, Spain.
+Lecture Notes in Computer Science, Vol. 7885, pp 295-304.
+[<a href="../publications/aime2013.pdf">manuscript</a>]
+</li>
+
+<li><a href="http://link.springer.com/chapter/10.1007/978-3-642-38326-7_42"><img src="../images/pdf.gif"
+width="20" height="20"></a> S.F. Shash,
+D. Moll&aacute;. <strong>Clustering of Medical Publications for
+Evidence Based Medicine Summarisation (2013)</strong>. <em>Proceedings
+of the 14th Conference on Artificial Intelligence in Medicine
+(<a href="http://www.aimedicine.info/aime13/">AIME 2013</a>),</em>
+  Murcia, Spain.
+Lecture Notes in Computer Science, Vol. 7885, pp 305-309.
+[<a href="../publications/aime2013b.pdf">manuscript</a>]
+[<a href="../publications/aime2013bposter.pdf">poster</a>]
+</li>
+
+<li><a
+href="http://nicta.com.au/__data/assets/pdf_file/0010/37648/louhi2013_submission_1.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> A. Sarker, D. Moll&aacute; and C. Paris. <strong>An Approach for Automatic Multi-label Classification of
+    Medical Sentences (2013).</strong> <em>Proceedings of the
+    Fourth International Workshop on Health Document Text Mining and
+    Information Analysis (<a href="http://www.nicta.com.au/business/health/events/louhi2013">LOUHI 2013</a>)</em>, Sydney, Australia.</li>
+<li><a
+href="http://www.alta.asn.au/events/alta2012/proceedings/pdf/U12-1020.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> D. Moll&aacute;. <strong>Experiments with Clustering-based
+Features for Sentence Classification in Medical Publications:
+Macquarie Test's participation in the ALTA 2012 shared task.
+</strong>. <em>Proceedings of the 2012 Australasian Language
+    Technology Workshop
+    (<a href="http://alta.asn.au/events/alta2012/">ALTA
+    2012</a>)</em>, Dunedin, New Zealand.
+</li>
+<li><a
+href="http://www.alta.asn.au/events/alta2012/proceedings/pdf/U12-1017.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> I. Amini, D. Martinez and D. Moll&aacute;. <strong>Overview of the
+    ALTA 2012 Shared Task (2012)</strong>. <em>Proceedings of the 2012
+    Australasian Language Technology Workshop
+    (<a href="http://alta.asn.au/events/alta2012/">ALTA
+    2012</a>)</em>, Dunedin, New Zealand.
+</li>
+<li><a
+href="http://www.alta.asn.au/events/alta2012/proceedings/pdf/U12-1011.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> A. Sarker, D. Moll&aacute; and C. Paris. <strong>Towards Two-step Multi-document Summarisation for Evidence Based
+Medicine: A Quantitative Analysis (2012)</strong>. <em>Proceedings of
+  the 2012 Australasian Language Technology Workshop (<a href="http://alta.asn.au/events/alta2012/">ALTA 2012</a>)</em>,
+Dunedin, New Zealand.</li>
+<li><a
+href="../publications/qa4mre12.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> D. Martinez, A. MacKinlay, D. Moll&aacute;, L. Cavedon and
+  K. Verspoor. <strong>Simple similarity-based question answering
+  strategies for biomedical text (2012).</strong> <em>QA4MRE Workshop
+  at Conference and Labs of the Evaluation Forum, CLEF
+  2012</em>. September 17-20, 2012.</li>
+<li><a
+href="../publications/AMJ2012EBM.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> D. Moll&aacute;
+  and M.E. Santiago-Mart&iacute;nez.  <strong>Creation of a Corpus for
+    Evidence Based Medicine Summarisation
+ (2012)</strong>. <em><a href="http://amj.net.au">Australasian Medical
+ Journal</a></em>, 5(9).</li>
+<li><a
+href="../publications/AMJ2012Sum.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> A. Sarker,
+ D. Moll&aacute; and C. Paris.  <strong>Extractive Summarisation of
+ Medical Documents using Domain Knowledge and Corpus Statistics
+ (2012)</strong>. <em><a href="http://amj.net.au">Australasian Medical Journal</a></em>.</li>
+<li><a
+href="../publications/CBMS2012.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> A. Sarker,
+ D. Moll&aacute; and C. Paris.  <strong>Extractive Evidence Based
+    Medicine Summarisation Based on Sentence-Specific Statistics
+ (2012)</strong>. <em>Proceedings of the 25th IEEE International
+    Symposium on Computer-based Medical Systems (<a href="http://www.cbms2012.org/">CBMS2012</a>)</em>,
+  Rome, Italy. [<a href="slides/CBMS2012.pdf">slides</a>]
+</li>
+<li><a
+href="../publications/hikm12.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> P. Davis-Desmond and Diego Moll&aacute;. <strong>Detection of
+    Evidence in Clinical Research Papers
+    (2012)</strong>. <em>Australasian Workshop On Health Informatics
+    and Knowledge Management
+    (<a href="http://publichealth.curtin.edu.au/HIKM/">HIKM
+      2012</a>)</em>, Melbourne, Australia. [<a href="slides/HIKM2012.pdf">slides</a>]
+</li>
+
+<li>D. Moll&aacute; and Mar&iacute;a Elena
+  Santiago-Mart&iacute;nez. <strong>Creation of a Corpus for
+  Evidence Medicine Summarisation  (2011)</strong>. <em>Proceedings of
+  the First Australian Workshop on Artificial Intelligence in Health
+  (<a href="http://aehrc.com/aih2011">AIH 2011</a>)</em>,
+  Perth, Australia. [<a href="slides/AIH2011Poster.pdf">poster</a>]
+</li>
+
+<li>A. Sarker, D. Moll&aacute; and C&eacute;cile
+  Paris.  <strong>Extractive Summarisation of Medical Documents using
+  Domain Knowledge and Corpus Statistics (2011)</strong>. <em>Proceedings of
+  the First Australian Workshop on Artificial Intelligence in Health
+  (<a href="http://aehrc.com/aih2011">AIH 2011</a>)</em>,
+  Perth, Australia.
+</li>
+
+<li><a
+href="http://alta.asn.au/events/alta2011/proceedings/pdf/U11-1003.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> D. Moll&aacute; and A. Sarker.  <strong>Automatic Grading of
+  Evidence: The 2011 ALTA Shared Task (2011)</strong>. <em>Proceedings of
+  the 2011 Australasian Language Technology Workshop
+  (<a href="http://alta.asn.au/events/alta2011/">ALTA 2011</a>)</em>,
+  Canberra, Australia.
+</li>
+
+<li><a
+href="http://alta.asn.au/events/alta2011/proceedings/pdf/U11-1014.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> A. Sarker, D. Moll&aacute; and C&eacute;cile Paris.  <strong>Outcome Polarity Identification of Medical Papers (2011)</strong>. <em>Proceedings of
+  the 2011 Australasian Language Technology Workshop
+  (<a href="http://alta.asn.au/events/alta2011/">ALTA 2011</a>)</em>,
+  Canberra, Australia.
+</li>
+
+<li><a
+href="http://alta.asn.au/events/alta2011/proceedings/pdf/U11-1012.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> D. Moll&aacute; and Mar&iacute;a Elena
+  Santiago-Mart&iacute;nez. <strong>Development of a Corpus for
+  Evidence Medicine Summarisation  (2011)</strong>. <em>Proceedings of
+  the 2011 Australasian Language Technology Workshop
+  (<a href="http://alta.asn.au/events/alta2011/">ALTA 2011</a>)</em>,
+  Canberra, Australia. [<a href="http://www.slideshare.net/dmollaaliod/alta2011">slideshare</a>]
+</li>
+
+<li><a
+href="../publications/Louhi2011.pdf"><img
+src="../images/pdf.gif" width="20" height="20"> </a>A. Sarker, D. Moll&aacute; and C&eacute;cile
+  Paris. <strong>Towards Automatic Grading of Evidence
+  (2011)</strong>. <em>Proceedings of the Third International Workshop on
+Health Document Text Mining and Information Analysis (<a href="http://sites.google.com/site/louhi2011/">LOUHI 2011</a>)</em>,
+  pp51-58. Bled, Slovenia.
+</li>
+<li><a
+href="http://www.cs.rmit.edu.au/adcs2010/proceedings/pdf/paper%2016.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a>
+ A. Sarker and D. Moll&aacute;. <strong>A Rule-based Approach for
+    Automatic Identification of Publication Types of Medical Papers (2010)</strong>. 
+<em>Proceedings <a href="http://www.cs.rmit.edu.au/adcs2010/index.php">ADCS
+    2010</a></em>, 5 pages. Melbourne.</li>
+
+<li><a
+href="http://www.alta.asn.au/events/alta2010/proceedings/pdf/U10-1012.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a>
+  D. Moll&aacute;. <strong>A Corpus for Evidence Based Medicine Summarisation (2010)</strong>. 
+<em>Proceedings <a href="http://www.alta.asn.au/events/alta2010/">ALTA
+    2010</a></em>, pp.76-80. Melbourne. [<a href="slides/ALTA2010.pdf">slides</>]</li>
+<li><a
+href="../publications/hikm10.pdf"><img
+src="../images/pdf.gif" width="20" height="20"></a> A. Tutos and D. Moll&aacute;. <strong>A Study on the Use of Search Engines for Question Answering in Biomedicine (2010)</strong>. 
+<em>Australasian Workshop On Health Informatics and Knowledge Management
+(<a href="http://aehrc.com/hikm2010/">HIKM</a>)</em>, 8
+pages. Brisbane. [<a href="slides/HIKM2010.pdf">slides</a>]</li>
+</ol>
+
+<h3>Other Presentations</h3>
+
+<ol>
+<li><a href="http://www.slideshare.net/dmollaaliod/macquarie-university-workshop-on-text-mining-and-health"><img
+height="20" width="20" src="../images/slideshare.jpeg"></a> <strong>Macquarie University Workshop on Text Mining and Health</strong>, opening presentation at
+  the <a href="http://comp.mq.edu.au/research/collaboration-workshops/2014-mq-clinical-nlp/">Macquarie University Workshop on Text Mining and Health, Macquarie University, Sydney, September 2014.</li>
+<li><a href="slides/PatnaWorkshop2012.pdf"><img
+height="20" width="20" src="../images/pdf.gif"></a> <strong>Text Summarisation for Evidence Based Medicine</strong>, presentation at
+  the <a href="http://www.iitp.ac.in/OptHLT/oneday/">Indo-Australia Workshop on Optimization Techniques for Human
+  Language Technology</a>, India Institute of Technology Patna, December
+  16 2012.</li>
+<li><a href="slides/HAIL201203.pdf"><img
+height="20" width="20" src="../images/pdf.gif"></a> <strong>Automated Summarisation for Evidence Based Medicine</strong>, <a href="http://research.ict.csiro.au/hail/Abstracts/2012/diego_aliod">HAIL seminar</a>
+  22 March 2012.</li>
+</ol>
+
+<h3>Funding</h3>
+
+<p>This research is partly funded by a Macquarie University Research
+  Development Grant and by CSIRO.</p>
+
+
+<hr>
+
+<p align="right" class="announcement"><a rel="license"
+  href="http://www.apache.org/licenses/LICENSE-2.0"><img alt="Apache
+  2" style="border-width:0" width="75" src="feather-small.gif"
+  /><a rel="license"
+  href="http://www.gnu.org/licenses/gpl.html"><img alt="GPLv3"
+  style="border-width:0" width="65" src="gplv3-127x51.png" /></a>
+  <br />
+  Parts of this work are licensed under a 
+  <a rel="license"
+  href="http://www.gnu.org/licenses/gpl.html">GNU General
+  Public License GPLv3</a>.
+  <br />
+  Parts of this work are licensed under an 
+  <a rel="license"
+  href="http://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.
+</p>
+
+
+<?php include("../footer.html"); ?>

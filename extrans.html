@@ -1,0 +1,324 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><html><head><title>ExtrAns: An NLP approach to answer extraction</title>
+   
+   <meta name="GENERATOR" content="Mozilla/3.01Gold (X11; I; SunOS 5.5 sun4u) [Netscape]">
+</head>
+
+<body>
+
+<p></p>
+
+<h1 align="center">ExtrAns: An NLP approach to answer extraction</h1>
+
+<center><p align="center"><i>Diego Mollá Aliod</i></p></center>
+
+<h2>Answer extraction</h2>
+
+<p>Since the beginning of Artificial Intelligence, programmers have tried
+to implement the ultimate help system: a program which would accurately
+answer any question asked by the user about how to use this or that, how
+to perform this or that, what is available in the system, etc. As time
+passes by, we are all too aware that such a goal is all too difficult to
+achieve with the current technology.</p>
+
+<p>It is possible, though, to attempt to solve simpler goals, and nowadays
+one can find programs which try to solve tasks such as information retrieval
+and information extraction. In the case of <b>information retrieval</b>,
+the goal is to find those files that possibly contain the information the
+user wants. This information is typically asked in form of lists of keywords,
+but it can be also asked in plain English. But even if the question is
+asked in English, these systems will typically convert the user question
+into a keyword-type question, by removing all the "irrelevant"
+words such as articles, very common words, etc. As a result, many of the
+restrictions given by the user are lost, and the system would retrieve
+far more documents than one would want (anybody who regularly searches
+the Internet with a standard search engine will know what I am talking
+about). In these systems, then, the user can freely ask the question, but
+the results given are far from ideal, needing a lot of human filtering.</p>
+
+<p>The case of <b>information extraction</b> is different. Now the goal
+is to find specific information which suits a specific type of questions.
+This information will be generally returned in a structured fashion which
+can be processed later by another program. The draw-back of this approach
+is, however, that the type of questions is very restricted. Questions will
+typically belong to a specific type, according to a number of pre-defined
+frames.</p>
+
+<p>In our project, <a href="#Members">we</a> are trying to devise a system,
+ExtrAns, with a high degree of recall and precision, which can be freely
+queried in plain English, without any restrictions, and who finds the exact
+passage that directly answers the question, not just a pointer to the document.
+This is what we call <b>answer extraction.</b> Due to the flexibility we
+want to achieve and the degree of recall and precision, using a degree
+of linguistic information is inevitable. We will not, however, resort to
+a full-fledged question-answering system. Possible applications will typically
+have data of moderate size, and the data will be fairly stable. Examples
+are help systems of big programs or operating systems.</p>
+
+<h2>The goals and tools of ExtrAns</h2>
+
+<p>The specific goal of ExtrAns is to find the relevant passages of the
+Unix "man pages" which directly answer the user query. In order
+to do that, the text is preprocessed, analysed, and the information translated
+into a set of logical forms that can be queried over. We have used public-domain
+software in as many modules as possible, but still we had to fully implement
+some of them.</p>
+
+<p>Overall, the system analyses the data in this sequence: first, the source
+files of the Unix "man pages" are preprocessed and the data tokenised
+and converted into a format which can be understood by the parser. Then,
+the data are parsed. After that, the parses are disambiguated as much as
+possible and finally converted into logical forms which can express semantic
+information and dependencies between the words. For example, a typical
+logical form of the sentence <tt>"cp copies filename1 onto filename2"</tt>
+would state that cp is a command, filename1 and filename2 are arguments,
+and furthermore they refer to files, that a copying event is involved,
+that cp does the copying, that the source file is filename1 and the destination
+is filename2. In ExtrAns, all of this information is stated by means of
+a subset of the Predicate Logic, the <b>Horn Clauses</b>, which can be
+easily handled by the Prolog programming language.</p>
+
+<p>When the user asks a question, the sequence of steps is as follows.
+First, the logical form of the query is constructed following the same
+steps as above, and the logical form is converted into a Prolog query.
+Second, the system uses the standard Prolog unification and backtracking
+mechanisms to find the logical forms of the data which are compatible with
+the query, and all the relevant sentences are retrieved. Third, the results
+are displayed in a user-friendly fashion, highlighting those parts of the
+sentences which are more likely to directly answer the question.</p>
+
+<p>In the next sections we will see some particularities of some of the
+steps mentioned above, what type of problems we found, and a hint on how
+we solved (or how we are trying to solve) them.</p>
+
+<h2>Managing through Unix manual pages</h2>
+
+<p>In general, tokenising a text means merely identifying word forms and
+sentences. However, in highly technical documents such as the Unix man
+pages, this may become a formidable task. Apart from regular word forms,
+the ExtrAns tokeniser has to recognise all of the following as tokens and
+represent them as normalised expressions:</p>
+
+<dl><dt><b>Command names:</b></dt><dd> eject, nice (problem: identify regular words when used as names of
+commands in sentences like "<b>eject</b> is used for...", as
+opposed to their standard use, as in "It is not recommended to physically
+eject media ..."). </dd><dt><b>Path names and absolute file names:</b> </dt><dd>/usr/bin/X11; usr/5bin/ls, /etc/hostname.le (problems: leading, trailing
+and internal slashes, numbers and periods). </dd><dt><b>Options of commands:</b> </dt><dd>-C, -ww, -dFinUv (problem: identify where a sequence preceded by a
+dash is an option and where not, as in "... whose name ends with .gz,
+-gz, .z, -z, _z or .Z and which begins ..."). </dd><dt><b>Named variables:</b> </dt><dd><i>filename1, device, nickname</i> (problems: identify words used as
+named variables, mostly as arguments of commands as in "... the first
+<i>mm</i> is the hour number; <i>dd</i> is the day ...") </dd><dt><b>Special characters as parts of tokens:</b> </dt><dd>AF_UNIX, sun_path, ^S(CTRL-S), K&amp;R, C++, name@domain or %, %% (as
+in: "A single % is encoded by %%."), various punctuation marks
+(as in: "... corresponding to cat? or fmt?", or in "/usr/man/man?",
+"&lt;signal.h&gt;", or "[host!...host!]host!username ")
+</dd></dl>
+
+<p>Normalising such tokens means, among other things, to appropriately
+mark special tokens such as command names (otherwise the parser chokes
+on them). Luckily, the Unix man pages contain a considerable amount of
+useful information beyond the purely textual level, namely the information
+conveyed by the <i>formatting commands</i>. Thus command names are, as
+a rule, printed in boldface, and expressions used as arguments, in italics,
+as in:</p>
+
+<center><p><b>compress</b> [ -cfv ] [ -b <i>bits</i> ] [ <i>filename</i>
+...]</p></center>
+
+<p>This type of information is extracted from the formatting commands and
+added to the tokens for later modules to use (e.g. "eject", when
+used as the name of a command, is turned into "eject.com", and
+"filename", when used as an argument, into "filename.arg").
+Unfortunately, the formatting instructions in the Unix man pages are used
+in a fairly unsystematic fashion (these pages were written by dozens of
+different persons). The tokeniser must cope with this by collecting as
+much information as possible about the special words. Thus, for instance,
+it must collect all the command and argument names from the SYNOPSIS section
+of the man page to make sure that it will recognise them in the body of
+the text, even if they are formatted incorrectly.</p>
+
+<h2>Finding the logical form of a sentence</h2>
+
+<p>Once the text is properly tokenised, it must be parsed and the logical
+form of each sentence computed. We were initially using <a href="#Grover:1993">Grover
+et al.'s (1993)</a> Alvey system. This system contains a large dictionary
+and a wide-coverage grammar, and it provides the semantic information of
+the parsed sentence, which we can easily adapt for our purposes. However,
+the Alvey system contained a few disadvantages which made its use difficult.
+For example, the number of parses of each sentence was much larger than
+what one would expect, and the system did not cope well with unknown words
+or ungrammatical sentences. For that reason we decided to shift to <a href="#Sleator:1991">Sleator
+and Temperley's (1991)</a> Link Grammar, which was more advantageous than
+the Alvey system in those points.</p>
+
+<p>The disadvantage of the Link Grammar is that the result only contains
+syntactic information, and we must build the logical form from scratch.
+The Link Grammar is dependency-based (as opposed to constituency-based)
+and the syntactic information is given as a set of labelled connections
+between the words forming the sentence (as opposed to a parse tree). We
+cannot use any approach based on parse trees to build the logical form,
+and since we have no knowledge of any theory attempting to use a dependency
+grammar to build the logical form (any suggestions?), we had to do all
+the work unassisted. The task is not as formidable as it seems, though,
+since it is possible to "see" the parse tree out of the set of
+links. Consider the following example:</p>
+
+<pre>            +------------MV----------------+
+            +----O------+                  |       
+  +-W--+-S--+     +-D---+-M--+--J---+      +--J----+        
+  |    |    |     |     |    |      |      |       |        
+///// cp copies the contents of filename1 onto  filename2
+</pre>
+
+<p>Here, the subject is "cp", the verb is "copies",
+the object is "the contents of filename1", and there is a prepositional
+phrase "onto filename2". We can actually follow the links as
+if we were exploring the branches of a parse tree, and use the labels to
+determine the type of dependency. For example, a S denotes a subject, an
+O an object, and a MV a prepositional phrase modifying a verb. The "root"
+of the tree would be the link to the wall (the "/////" at the
+left). There are, however, some features of the linkages which make the
+extraction of the logical form cumbersome or difficult. Some of them are:</p>
+
+<ul>
+<li>In some cases, different syntactic structures must be translated into
+the same logical form. Examples are: "John gave a book to Mary"
+<i>vs.</i> "John gave Mary a book" <i>vs.</i> "the book
+was given to Mary by John" <i>vs.</i> "Mary was given a book
+by John". This is a general problem of any syntactic analyser and
+therefore it is not unique to the link grammar. Still, we must confront
+it in a fashion or another.</li>
+
+<li>The sheer number of different link labels. There are about 90 different
+main linkage types, and each type may contain several subtypes. Some of
+the links differ only in the relative position of the modifier with respect
+to the head. For example, O links a verb to an object which is on the right,
+whereas B links a verb to an object which is on the left.</li>
+
+<li>Some links do not link to the head of the constituent. In our example
+above, the link W does not connect the wall to the head of the clause (the
+verb), but to the head of the subject.</li>
+</ul>
+
+<h2>Presenting the result</h2>
+
+<p>The query posed by the user may retrieve several sentences. ExtrAns
+displays all the sentences retrieved, and highlights those <i>passages</i>
+of the sentences which directly answer the query, in such a way that a
+stronger highlighting implies that the text is more likely to directly
+answer the query (see the next section). Furthermore, it is possible to
+view the manual page which contains the sentence, by clicking the link
+at the left of the sentence. The manual page shows the same highlighting
+in the relevant sentences, allowing the user to easily spot the sentences
+in the manual. We can see this in the enclosed figures, who show the result
+of the query "which command copies files?", and the manual page
+of the "cp" command, with the relevant highlighting.</p>
+
+<center><p><a name="Fig1"></a><b>Figure 1: The result of the query "which
+command copies files?"</b><br>
+<img src="extrans_files/extransfig1.gif" alt="[Figure1]" height="450" width="700"></p></center>
+
+<center><p><a name="Fig2"></a><b>Figure 2: Unix manpage with highlighting</b><br>
+<img src="extrans_files/extransfig2.gif" alt="[Figure2]" height="500" width="700"></p></center>
+
+<h2>Coping with ambiguities</h2>
+
+<p>Disambiguation is a problem our system must deal with. Sleator and Temperley's
+parser does not try to solve syntactic nor semantic ambiguities, and a
+long sentence may generate hundreds, even thousands, different parses.
+The following sentence, extracted from the Unix manual pages, has 96 parses:</p>
+
+<p><tt>"If you do not have write permission on the file and the standard
+input is a terminal, rm displays the file's permissions and waits for you
+to type in a response."</tt> </p>
+
+<p>ExtrAns tries to resolve (syntactic) ambiguities in two steps. First
+of all, some hand-crafted rules filter out the most straightforward cases.
+An example of such a rule is: "A prepositional phrase headed by <i>of</i>
+can attach only to the immediately preceding noun or noun coordination."
+After applying this and other rules, the sentence above retains 48 parses.</p>
+
+<p>In a second step, we adopt <a href="#Brill:1994">Brill and Resnik's
+(1994)</a> prepositional phrase disambiguation approach. Their original
+algorithm is extended to cover as many types of ambiguities as possible,
+and the resulting program is trained with specific data extracted from
+the manual pages. In this way, the number of different parses of the sentence
+above is reduced to 12.</p>
+
+<p>As we can see above, not all of the spurious ambiguities are filtered
+out. We are working on the way to improve the disambiguation efficiency
+by adding word-classes and other semantic information. Still, we are well
+aware that we cannot resolve <i>all</i> the ambiguities, among other things
+because some of them may be <i>genuinely irresoluble</i>. For example,
+the sentence</p>
+
+<center><p><tt>"I saw a man with a telescope"</tt> </p></center>
+
+<p>has two readings. In the normal reading, I am saying that I used a telescope
+to see a man. There is another reading, however, namely that it is the
+man who has the telescope, and I saw him and his telescope. Clearly, sentences
+like this cannot be disambiguated. In fact, there may be cases where the
+speaker intentionally keeps the ambiguity unresolved.</p>
+
+<p>For this reason, ExtrAns tries to reduce the number of ambiguities,
+but it does not try to obtain exactly one logical form out of every sentence.
+If a sentence has several irreducible interpretations, ExtrAns stores in
+its database all of them. When the user asks a query, a sentence may be
+retrieved several times (because the sentence may have several logical
+forms which are compatible with the query). These different logical forms
+may highlight different words, as a result of the different interpretations.
+ExtrAns handles this mismatch of highlighted words by superimposing all
+of the highlights of each sentence, in such a way that those parts which
+are retrieved more times are highlighted with a brighter colour. For example,
+consider the string <tt>"If filename2 has a mode which forbids writing,
+mv prints the mode"</tt> in <a href="#Fig1">figure 1</a>. This string
+formed part of all of the interpretations of the sentence labelled as mv.1/DESCRIPTION/6
+which have been retrieved in response to the user query. Therefore, it
+is highlighted with more intensity. Thanks to this, the user has an accurate
+idea of what parts of the sentence are more relevant to the query being
+asked. This way of presenting search results makes even multiple ambiguities
+fairly unobtrusive.</p>
+
+<h2>Concluding remarks</h2>
+
+<p>Our work is not completed yet, but we are optimistic about the possibilities
+of ExtrAns. Currently it can parse 30 manpages, but we intend to extend
+the number of pages, until we eventually reach a critical point from which
+a new manpage will represent (almost) no problems for the system. In the
+current prototype, the user can freely ask any question about the contents
+of the manual pages, and an accurate answer is retrieved and displayed,
+highlighting the parts of the sentences which are most relevant to the
+user, with pointers to the original manpages.</p>
+
+<p>Apart from extending the linguistic coverage of the system, we are also
+starting to tackle more complex problems, such as semantics and the use
+of world knowledge to establish useful inferences, refine the disambiguation
+process, and anaphora resolution.</p>
+
+<h2>Bibliography</h2>
+
+<ul>
+<li><a name="Brill:1994"></a>Brill, E. and P. Resnik (1994), A rule-based
+approach to prepositional phrase attachment disambiguation, in <i>Proceedings
+of the 15th International Conference on Computational Linguistics (COLING
+'94)</i>, Kyoto, Japan, pp.1998-1204. </li>
+
+<li><a name="Grover:1993"></a>Claire Grover, John Carroll, and Ted Briscoe
+(1993), <i>The Alvey Natural Language Tools Grammar (4th Release)</i>,
+technical report, Human Communication Research Centre, University of Edinburgh.
+</li>
+
+<li><a name="Sleator:1991"></a>Daniel D. Sleator and Davy Temperley (1991),
+<i>Parsing English with a Link Grammar</i>, technical report CMU-CS-91-196,
+School of Computer Science, Carnegie Mellon University. </li>
+</ul>
+
+<h2><a name="Members"></a>Members of ExtrAns</h2>
+
+<ul>
+<li><a href="http://www.ifi.unizh.ch/%7Ehess">Prof. Michael Hess</a></li>
+
+<li><a href="http://www.ifi.unizh.ch/%7Emolla">Dr. Diego Mollá Aliod</a></li>
+
+<li><a href="http://www.ifi.unizh.ch/%7Eberri">Dr. Jawad Berri</a></li>
+</ul>
+
+</body></html>

@@ -1,0 +1,38 @@
+.tagcloud {
+  text-align: justify;
+  font-size: 80%;
+}
+
+.tagcloud li {
+  display: inline;
+  padding: 0em .1em 0em .1em;
+}
+
+.tagcloud a,.taglist a {
+  text-decoration: none;
+}
+
+.tagcloud a:hover, .taglist a:hover {
+  color: #f00;
+  text-decoration: none;
+}
+
+.taglist {
+  font-size: 70%;
+}
+
+.taglist li {
+  display: block;
+}
+
+.tagtiny a {
+  font-size: 100%;
+}
+
+.taglarge a {
+  font-size: 140%;
+}
+
+.taghuge a {
+  font-size: 200%;
+}
